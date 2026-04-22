@@ -22,14 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.85,
-          38.741
+          -76.8349,
+          38.7347
         ]
       },
       "properties": {
         "id": "cheltenham_cemetery",
-        "name": "Cheltenham wooded cemetery",
-        "short": "Cemetery (burial site)",
+        "name": "Unkempt grave site at Cheltenham",
+        "short": "Unkempt grave site",
         "note": "VERIFY COORDINATES. Adjacent to Cheltenham Veterans Cemetery."
       }
     },

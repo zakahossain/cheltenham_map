@@ -17,7 +17,7 @@
         "address": "109 W. Conway St.",
         "address_year": null,
         "more_recent_address": null,
-        "tooltip": "Bernard Aulton, age 14 at Cheltenham (1938). Last known address: 109 W. Conway St.",
+        "tooltip": "<strong>Bernard Aulton</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 109 W. Conway St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -37,7 +37,7 @@
         "address": "306 N. Poppleton St.",
         "address_year": 1934,
         "more_recent_address": null,
-        "tooltip": "William Brown, age 17 at Cheltenham (1938). Last known address: 306 N. Poppleton St. (1934).",
+        "tooltip": "<strong>William Brown</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 306 N. Poppleton St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -57,7 +57,7 @@
         "address": "339 St. Paul Pl.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Richard Bush, age 18 at Cheltenham (1938). Last known address: 339 St. Paul Pl. (1935).",
+        "tooltip": "<strong>Richard Bush</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 339 St. Paul Pl. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -77,7 +77,7 @@
         "address": "164 W. Hamburg St.",
         "address_year": null,
         "more_recent_address": "1306 Lemon St. - 1940",
-        "tooltip": "Maurice Edward Brown, age 13 at Cheltenham (1938). Last known address: 164 W. Hamburg St. Later: 1306 Lemon St. 1940.",
+        "tooltip": "<strong>Maurice Edward Brown</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 164 W. Hamburg St. before his commitment. By 1940, he was living at 1306 Lemon St.",
         "geocode_source": "census"
       }
     },
@@ -97,7 +97,7 @@
         "address": "1108 Clendenin St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Charles Bostick, age 16 at Cheltenham (1938). Last known address: 1108 Clendenin St. (1935).",
+        "tooltip": "<strong>Charles Bostick</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1108 Clendenin St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -117,7 +117,7 @@
         "address": "1802 Pennsylvania Ave.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Gordon Bazzle, age 15 at Cheltenham (1938). Last known address: 1802 Pennsylvania Ave. (1936).",
+        "tooltip": "<strong>Gordon Bazzle</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1802 Pennsylvania Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -137,7 +137,7 @@
         "address": "1341 Ward St.",
         "address_year": 1936,
         "more_recent_address": "Md. Pen. 1945",
-        "tooltip": "James Bosley, age 15 at Cheltenham (1938). Last known address: 1341 Ward St. (1936). Later: Md. Pen. 1945.",
+        "tooltip": "<strong>James Bosley</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1341 Ward St. before his commitment. By 1945, he was at the Maryland Penitentiary.",
         "geocode_source": "census"
       }
     },
@@ -157,7 +157,7 @@
         "address": "830 Barnes St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "William Black, age 13 at Cheltenham (1938). Last known address: 830 Barnes St. (1937).",
+        "tooltip": "<strong>William Black</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 830 Barnes St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -177,7 +177,7 @@
         "address": "608 Waltermeyer Ct.",
         "address_year": null,
         "more_recent_address": "1100 Dorn St. 1939",
-        "tooltip": "Edward Brown, age 14 at Cheltenham (1938). Last known address: 608 Waltermeyer Ct. Later: 1100 Dorn St. 1939.",
+        "tooltip": "<strong>Edward Brown</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 608 Waltermeyer Ct. before his commitment. By 1939, he was living at 1100 Dorn St.",
         "geocode_source": "census"
       }
     },
@@ -197,7 +197,7 @@
         "address": "1117 N. Carey St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "William Butler, age 16 at Cheltenham (1938). Last known address: 1117 N. Carey St. (1937).",
+        "tooltip": "<strong>William Butler</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1117 N. Carey St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -217,7 +217,7 @@
         "address": "1015 McCulloh St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "George Barnes, age 12 at Cheltenham (1938). Last known address: 1015 McCulloh St. (1937).",
+        "tooltip": "<strong>George Barnes</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1015 McCulloh St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -237,7 +237,7 @@
         "address": "523 Laurens St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "James Batts, age 15 at Cheltenham (1938). Last known address: 523 Laurens St. (1937).",
+        "tooltip": "<strong>James Batts</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 523 Laurens St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -257,7 +257,7 @@
         "address": "2002 Hunter St.",
         "address_year": null,
         "more_recent_address": "Henryton 1940",
-        "tooltip": "William Cox, age 16 at Cheltenham (1938). Last known address: 2002 Hunter St. Later: Henryton 1940.",
+        "tooltip": "<strong>William Cox</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 2002 Hunter St. before his commitment. By 1940, he had been committed to Henryton State Hospital.",
         "geocode_source": "nominatim"
       }
     },
@@ -277,7 +277,7 @@
         "address": "612 Fremont St.",
         "address_year": null,
         "more_recent_address": "Calvert Co. (Lusby P.O. 1942)",
-        "tooltip": "Raymond Cross, age 16 at Cheltenham (1938). Last known address: 612 Fremont St. Later: Calvert Co. (Lusby P.O. 1942).",
+        "tooltip": "<strong>Raymond Cross</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 612 Fremont St. before his commitment. By 1942, he was living at Calvert Co. (Lusby P.O. ).",
         "geocode_source": "census"
       }
     },
@@ -297,7 +297,7 @@
         "address": "13 S. Schroeder St.",
         "address_year": 1934,
         "more_recent_address": null,
-        "tooltip": "Vernon Carroll or Murdock, age 14 at Cheltenham (1938). Last known address: 13 S. Schroeder St. (1934).",
+        "tooltip": "<strong>Vernon Carroll or Murdock</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 13 S. Schroeder St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -317,7 +317,7 @@
         "address": "1003 W. Lafayette Ave.",
         "address_year": null,
         "more_recent_address": "1714 W. Lanvale - 1941",
-        "tooltip": "Howard Cook, age 13 at Cheltenham (1938). Last known address: 1003 W. Lafayette Ave. Later: 1714 W. Lanvale 1941.",
+        "tooltip": "<strong>Howard Cook</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1003 W. Lafayette Ave. before his commitment. By 1941, he was living at 1714 W. Lanvale.",
         "geocode_source": "census"
       }
     },
@@ -337,7 +337,7 @@
         "address": "1359 N. Fremont St.",
         "address_year": null,
         "more_recent_address": "1342 N. Fremont - 1936",
-        "tooltip": "Francis Chase, age 14 at Cheltenham (1938). Last known address: 1359 N. Fremont St. Later: 1342 N. Fremont 1936.",
+        "tooltip": "<strong>Francis Chase</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1359 N. Fremont St. before his commitment. By 1936, he was living at 1342 N. Fremont.",
         "geocode_source": "census"
       }
     },
@@ -357,7 +357,7 @@
         "address": "1212 Madison Ave.",
         "address_year": null,
         "more_recent_address": "119 Fremont - 1941",
-        "tooltip": "Calvin Cox, age 13 at Cheltenham (1938). Last known address: 1212 Madison Ave. Later: 119 Fremont 1941.",
+        "tooltip": "<strong>Calvin Cox</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1212 Madison Ave. before his commitment. By 1941, he was living at 119 Fremont.",
         "geocode_source": "census"
       }
     },
@@ -377,7 +377,7 @@
         "address": "339 Forrest St",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Russell Collier, age 13 at Cheltenham (1938). Last known address: 339 Forrest St (1938).",
+        "tooltip": "<strong>Russell Collier</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 339 Forrest St before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -397,7 +397,7 @@
         "address": "1378 Woodyear St.",
         "address_year": null,
         "more_recent_address": "H. of C. 1940",
-        "tooltip": "George Crawford, age 14 at Cheltenham (1938). Last known address: 1378 Woodyear St. Later: H. of C. 1940.",
+        "tooltip": "<strong>George Crawford</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1378 Woodyear St. before his commitment. By 1940, he was at the House of Correction.",
         "geocode_source": "census"
       }
     },
@@ -417,7 +417,7 @@
         "address": "1338 Woodyear St.",
         "address_year": null,
         "more_recent_address": "1541 N. Gilmor St. 1940",
-        "tooltip": "Joseph Coates, age 15 at Cheltenham (1938). Last known address: 1338 Woodyear St. Later: 1541 N. Gilmor St. 1940.",
+        "tooltip": "<strong>Joseph Coates</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1338 Woodyear St. before his commitment. By 1940, he was living at 1541 N. Gilmor St.",
         "geocode_source": "census"
       }
     },
@@ -437,7 +437,7 @@
         "address": "1326 Mosher St.",
         "address_year": null,
         "more_recent_address": "1314 N. Calhoun 1937",
-        "tooltip": "Marshall Dorsey, age 16 at Cheltenham (1938). Last known address: 1326 Mosher St. Later: 1314 N. Calhoun 1937.",
+        "tooltip": "<strong>Marshall Dorsey</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1326 Mosher St. before his commitment. By 1937, he was living at 1314 N. Calhoun.",
         "geocode_source": "census"
       }
     },
@@ -457,7 +457,7 @@
         "address": "2145 Penna. Ave.",
         "address_year": null,
         "more_recent_address": "Killed 1939",
-        "tooltip": "Eugene Duvall, age 17 at Cheltenham (1938). Last known address: 2145 Penna. Ave. Later: Killed 1939.",
+        "tooltip": "<strong>Eugene Duvall</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 2145 Penna. Ave. before his commitment. He was killed in 1939.",
         "geocode_source": "census"
       }
     },
@@ -477,7 +477,7 @@
         "address": "1431 W. Mulberry St.",
         "address_year": null,
         "more_recent_address": "H. of C. 1943",
-        "tooltip": "Turner Dyson, age 12 at Cheltenham (1938). Last known address: 1431 W. Mulberry St. Later: H. of C. 1943.",
+        "tooltip": "<strong>Turner Dyson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1431 W. Mulberry St. before his commitment. By 1943, he was at the House of Correction.",
         "geocode_source": "census"
       }
     },
@@ -497,7 +497,7 @@
         "address": "416 N. Bethel St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Hansiel Dredden, age 12 at Cheltenham (1938). Last known address: 416 N. Bethel St. (1942).",
+        "tooltip": "<strong>Hansiel Dredden</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 416 N. Bethel St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -517,7 +517,7 @@
         "address": "828 W. Lexington St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Landis Denton, age 11 at Cheltenham (1938). Last known address: 828 W. Lexington St. (1938).",
+        "tooltip": "<strong>Landis Denton</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 828 W. Lexington St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -537,7 +537,7 @@
         "address": "1319 Stockton St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Bernard Duckett (or Paul), age 13 at Cheltenham (1938). Last known address: 1319 Stockton St. (1939).",
+        "tooltip": "<strong>Bernard Duckett (or Paul)</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1319 Stockton St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -557,7 +557,7 @@
         "address": "1501 E. Eager St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "George Davis, age 14 at Cheltenham (1938). Last known address: 1501 E. Eager St. (1939).",
+        "tooltip": "<strong>George Davis</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1501 E. Eager St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -577,7 +577,7 @@
         "address": "114 N. Chapel St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Emanuel Douglas, age 15 at Cheltenham (1938). Last known address: 114 N. Chapel St. (1937).",
+        "tooltip": "<strong>Emanuel Douglas</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 114 N. Chapel St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -597,7 +597,7 @@
         "address": "738 W. Fairmount Ave.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Clarence Douglas, age 13 at Cheltenham (1938). Last known address: 738 W. Fairmount Ave. (1941).",
+        "tooltip": "<strong>Clarence Douglas</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 738 W. Fairmount Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -617,7 +617,7 @@
         "address": "557 Baker Street",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "James Russell or Daugherty, age 11 at Cheltenham (1938). Last known address: 557 Baker Street (1939).",
+        "tooltip": "<strong>James Russell or Daugherty</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 557 Baker Street before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -637,7 +637,7 @@
         "address": "1355 Whatcoat St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "John D. Dix, age 15 at Cheltenham (1938). Last known address: 1355 Whatcoat St. (1941).",
+        "tooltip": "<strong>John D. Dix</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1355 Whatcoat St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -657,7 +657,7 @@
         "address": "1014 Dallas St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Nathaniel Edwards, age 13 at Cheltenham (1938). Last known address: 1014 Dallas St. (1939).",
+        "tooltip": "<strong>Nathaniel Edwards</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1014 Dallas St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -677,7 +677,7 @@
         "address": "1135 Myrtle Ave.",
         "address_year": 1932,
         "more_recent_address": null,
-        "tooltip": "James Ford, age 18 at Cheltenham (1938). Last known address: 1135 Myrtle Ave. (1932).",
+        "tooltip": "<strong>James Ford</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 1135 Myrtle Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -697,7 +697,7 @@
         "address": "414 Bruce St.",
         "address_year": null,
         "more_recent_address": "439 Shields Place Norfolk Va. 1940",
-        "tooltip": "Joseph Finley, age 16 at Cheltenham (1938). Last known address: 414 Bruce St. Later: 439 Shields Place Norfolk Va. 1940.",
+        "tooltip": "<strong>Joseph Finley</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 414 Bruce St. before his commitment. By 1940, he was living at 439 Shields Place Norfolk Va.",
         "geocode_source": "nominatim"
       }
     },
@@ -717,7 +717,7 @@
         "address": "1025 W. Saratoga St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "James Fountain, age 18 at Cheltenham (1938). Last known address: 1025 W. Saratoga St. (1938).",
+        "tooltip": "<strong>James Fountain</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 1025 W. Saratoga St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -737,7 +737,7 @@
         "address": "1044 W. Saratoga St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "William Fitchett, age 15 at Cheltenham (1938). Last known address: 1044 W. Saratoga St. (1941).",
+        "tooltip": "<strong>William Fitchett</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1044 W. Saratoga St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -757,7 +757,7 @@
         "address": "4404 St. George Ave.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Clarence Fortson, age 17 at Cheltenham (1938). Last known address: 4404 St. George Ave. (1940).",
+        "tooltip": "<strong>Clarence Fortson</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 4404 St. George Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -777,7 +777,7 @@
         "address": "1607 W. Lanvale St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Ernest Forrest, age 16 at Cheltenham (1938). Last known address: 1607 W. Lanvale St. (1939).",
+        "tooltip": "<strong>Ernest Forrest</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1607 W. Lanvale St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -797,7 +797,7 @@
         "address": "628 Baker St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "William Fowlkes, age 15 at Cheltenham (1938). Last known address: 628 Baker St. (1937).",
+        "tooltip": "<strong>William Fowlkes</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 628 Baker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -817,7 +817,7 @@
         "address": "4404 St. George Ave.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Yarnzie Fortson, age 11 at Cheltenham (1938). Last known address: 4404 St. George Ave. (1940).",
+        "tooltip": "<strong>Yarnzie Fortson</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 4404 St. George Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -837,7 +837,7 @@
         "address": "705 S. Sharp St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "James Lee Grant, age 17 at Cheltenham (1938). Last known address: 705 S. Sharp St. (1940).",
+        "tooltip": "<strong>James Lee Grant</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 705 S. Sharp St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -857,7 +857,7 @@
         "address": "422 S. Caroline St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Benjamin Gillis, age 12 at Cheltenham (1938). Last known address: 422 S. Caroline St. (1939).",
+        "tooltip": "<strong>Benjamin Gillis</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 422 S. Caroline St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -877,7 +877,7 @@
         "address": "903 Edmondson Ave. Catons.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Samuel Gardner, age 16 at Cheltenham (1938). Last known address: 903 Edmondson Ave. Catons. (1940).",
+        "tooltip": "<strong>Samuel Gardner</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 903 Edmondson Ave. Catons. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -897,7 +897,7 @@
         "address": "867 Pierce St.",
         "address_year": null,
         "more_recent_address": "Killed 1939",
-        "tooltip": "Lawrence Harvey, age 17 at Cheltenham (1938). Last known address: 867 Pierce St. Later: Killed 1939.",
+        "tooltip": "<strong>Lawrence Harvey</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 867 Pierce St. before his commitment. He was killed in 1939.",
         "geocode_source": "nominatim"
       }
     },
@@ -917,7 +917,7 @@
         "address": "617 George St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Harold Hawkins, age 13 at Cheltenham (1938). Last known address: 617 George St. (1941).",
+        "tooltip": "<strong>Harold Hawkins</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 617 George St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -937,7 +937,7 @@
         "address": "1332 Stricker St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "James Harris, age 12 at Cheltenham (1938). Last known address: 1332 Stricker St. (1942).",
+        "tooltip": "<strong>James Harris</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1332 Stricker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -957,7 +957,7 @@
         "address": "726 N. Spring St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Leroy Henry, age 18 at Cheltenham (1938). Last known address: 726 N. Spring St. (1940).",
+        "tooltip": "<strong>Leroy Henry</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 726 N. Spring St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -977,7 +977,7 @@
         "address": "1017 Vine St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "William Hailey, age 17 at Cheltenham (1938). Last known address: 1017 Vine St. (1936).",
+        "tooltip": "<strong>William Hailey</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1017 Vine St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -997,7 +997,7 @@
         "address": "540 Burgundy St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Raymond Hawkins, age 16 at Cheltenham (1938). Last known address: 540 Burgundy St. (1940).",
+        "tooltip": "<strong>Raymond Hawkins</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 540 Burgundy St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1017,7 +1017,7 @@
         "address": "1300 Division St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "James Horton, age 13 at Cheltenham (1938). Last known address: 1300 Division St. (1936).",
+        "tooltip": "<strong>James Horton</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1300 Division St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1037,7 +1037,7 @@
         "address": "421 N. Stricker St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Robert Howard, age 17 at Cheltenham (1938). Last known address: 421 N. Stricker St. (1940).",
+        "tooltip": "<strong>Robert Howard</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 421 N. Stricker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1057,7 +1057,7 @@
         "address": "524 Johanson St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Richard Harper, age 15 at Cheltenham (1938). Last known address: 524 Johanson St. (1941).",
+        "tooltip": "<strong>Richard Harper</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 524 Johanson St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1077,7 +1077,7 @@
         "address": "1717 Barnes St.",
         "address_year": null,
         "more_recent_address": "Crownsville 1939",
-        "tooltip": "Hobert Hooper, age 13 at Cheltenham (1938). Last known address: 1717 Barnes St. Later: Crownsville 1939.",
+        "tooltip": "<strong>Hobert Hooper</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1717 Barnes St. before his commitment. By 1939, he had been committed to Crownsville State Hospital.",
         "geocode_source": "census"
       }
     },
@@ -1097,7 +1097,7 @@
         "address": "513 W. Barre St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Joseph Hammond, age 17 at Cheltenham (1938). Last known address: 513 W. Barre St. (1939).",
+        "tooltip": "<strong>Joseph Hammond</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 513 W. Barre St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1117,7 +1117,7 @@
         "address": "840 W. Lexington St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "John Hill, age 17 at Cheltenham (1938). Last known address: 840 W. Lexington St. (1939).",
+        "tooltip": "<strong>John Hill</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 840 W. Lexington St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1137,7 +1137,7 @@
         "address": "920 McDonough St.",
         "address_year": null,
         "more_recent_address": null,
-        "tooltip": "Forest Ingram, age 14 at Cheltenham (1938). Last known address: 920 McDonough St.",
+        "tooltip": "<strong>Forest Ingram</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 920 McDonough St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1157,7 +1157,7 @@
         "address": "1370 Fremont Ave.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "James Jones, age 13 at Cheltenham (1938). Last known address: 1370 Fremont Ave. (1941).",
+        "tooltip": "<strong>James Jones</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1370 Fremont Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1177,7 +1177,7 @@
         "address": "105 N. Bond St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Samuel Jones, age 15 at Cheltenham (1938). Last known address: 105 N. Bond St. (1941).",
+        "tooltip": "<strong>Samuel Jones</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 105 N. Bond St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1197,7 +1197,7 @@
         "address": "1446 Mount St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Leon Johnson Jr., age 14 at Cheltenham (1938). Last known address: 1446 Mount St. (1940).",
+        "tooltip": "<strong>Leon Johnson Jr.</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1446 Mount St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1217,7 +1217,7 @@
         "address": "538 W. West St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "John Jackson, age 15 at Cheltenham (1938). Last known address: 538 W. West St. (1941).",
+        "tooltip": "<strong>John Jackson</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 538 W. West St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1237,7 +1237,7 @@
         "address": "2316 Jefferson St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Walter Jackson, age 12 at Cheltenham (1938). Last known address: 2316 Jefferson St. (1942).",
+        "tooltip": "<strong>Walter Jackson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 2316 Jefferson St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1257,7 +1257,7 @@
         "address": "1222 St. Matthews St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Walter Johnson, age 12 at Cheltenham (1938). Last known address: 1222 St. Matthews St. (1942).",
+        "tooltip": "<strong>Walter Johnson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1222 St. Matthews St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1277,7 +1277,7 @@
         "address": "426 First St. Wash. SW",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Freddie Jones, age 14 at Cheltenham (1938). Last known address: 426 First St. Wash. SW (1939).",
+        "tooltip": "<strong>Freddie Jones</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 426 First St. Wash. SW before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1297,7 +1297,7 @@
         "address": "2218 Oak St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Benjamin Kenney, age 17 at Cheltenham (1938). Last known address: 2218 Oak St. (1935).",
+        "tooltip": "<strong>Benjamin Kenney</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 2218 Oak St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1317,7 +1317,7 @@
         "address": "805 Harford St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Lawrence Keys, age 16 at Cheltenham (1938). Last known address: 805 Harford St. (1936).",
+        "tooltip": "<strong>Lawrence Keys</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 805 Harford St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1337,7 +1337,7 @@
         "address": "1410 N. Gilmor St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Charles Keene, age 11 at Cheltenham (1938). Last known address: 1410 N. Gilmor St. (1940).",
+        "tooltip": "<strong>Charles Keene</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 1410 N. Gilmor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1357,7 +1357,7 @@
         "address": "588 Baker St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "George Laprade, age 19 at Cheltenham (1938). Last known address: 588 Baker St. (1938).",
+        "tooltip": "<strong>George Laprade</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 588 Baker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1377,7 +1377,7 @@
         "address": "933 N. Mount St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Walter Ligons, age 15 at Cheltenham (1938). Last known address: 933 N. Mount St. (1935).",
+        "tooltip": "<strong>Walter Ligons</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 933 N. Mount St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1397,7 +1397,7 @@
         "address": "574 Baker St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Rufus Langston, age 16 at Cheltenham (1938). Last known address: 574 Baker St. (1938).",
+        "tooltip": "<strong>Rufus Langston</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 574 Baker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1417,7 +1417,7 @@
         "address": "921 N. Carrollton Ave.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Orville La Cruze, age 18 at Cheltenham (1938). Last known address: 921 N. Carrollton Ave. (1936).",
+        "tooltip": "<strong>Orville La Cruze</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 921 N. Carrollton Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1437,7 +1437,7 @@
         "address": "938 N. Gilmor St.",
         "address_year": 1934,
         "more_recent_address": null,
-        "tooltip": "Frank Liggons, age 16 at Cheltenham (1938). Last known address: 938 N. Gilmor St. (1934).",
+        "tooltip": "<strong>Frank Liggons</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 938 N. Gilmor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1457,7 +1457,7 @@
         "address": "811 N. Eden St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Charles Logan, age 18 at Cheltenham (1938). Last known address: 811 N. Eden St. (1935).",
+        "tooltip": "<strong>Charles Logan</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 811 N. Eden St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1477,7 +1477,7 @@
         "address": "811 N. Eden St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Edward Leroy Logan, age 15 at Cheltenham (1938). Last known address: 811 N. Eden St. (1936).",
+        "tooltip": "<strong>Edward Leroy Logan</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 811 N. Eden St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1497,7 +1497,7 @@
         "address": "1518 E. Chase St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Ellsworth Lecompte, age 17 at Cheltenham (1938). Last known address: 1518 E. Chase St. (1938).",
+        "tooltip": "<strong>Ellsworth Lecompte</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1518 E. Chase St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1517,7 +1517,7 @@
         "address": "843 Harlem Ave.",
         "address_year": null,
         "more_recent_address": null,
-        "tooltip": "Jasper Lawson, age 13 at Cheltenham (1938). Last known address: 843 Harlem Ave.",
+        "tooltip": "<strong>Jasper Lawson</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 843 Harlem Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1537,7 +1537,7 @@
         "address": "1621 Barnes St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Harvey Moye, age 18 at Cheltenham (1938). Last known address: 1621 Barnes St. (1935).",
+        "tooltip": "<strong>Harvey Moye</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 1621 Barnes St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1557,7 +1557,7 @@
         "address": "733 W. Mulberry St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Albert Matthews, age 14 at Cheltenham (1938). Last known address: 733 W. Mulberry St. (1937).",
+        "tooltip": "<strong>Albert Matthews</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 733 W. Mulberry St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1577,7 +1577,7 @@
         "address": "1423 Jefferson St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "George Matthews, age 10 at Cheltenham (1938). Last known address: 1423 Jefferson St. (1939).",
+        "tooltip": "<strong>George Matthews</strong> was <strong>10</strong> at Cheltenham in 1938. He lived at 1423 Jefferson St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1597,7 +1597,7 @@
         "address": "1142 N. Gilmor St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Joseph Miller, age 15 at Cheltenham (1938). Last known address: 1142 N. Gilmor St. (1936).",
+        "tooltip": "<strong>Joseph Miller</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1142 N. Gilmor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1617,7 +1617,7 @@
         "address": "806 Bruce St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Herbert Mitchell, age 18 at Cheltenham (1938). Last known address: 806 Bruce St. (1938).",
+        "tooltip": "<strong>Herbert Mitchell</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 806 Bruce St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1637,7 +1637,7 @@
         "address": "1635 Presbury St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Vernon Moulton or Morton, age 15 at Cheltenham (1938). Last known address: 1635 Presbury St. (1936).",
+        "tooltip": "<strong>Vernon Moulton or Morton</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1635 Presbury St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1657,7 +1657,7 @@
         "address": "1310 Pennsylvania Ave.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "James Moore, age 17 at Cheltenham (1938). Last known address: 1310 Pennsylvania Ave. (1936).",
+        "tooltip": "<strong>James Moore</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1310 Pennsylvania Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1677,7 +1677,7 @@
         "address": "797 George St.",
         "address_year": null,
         "more_recent_address": null,
-        "tooltip": "Junius Miller, age 15 at Cheltenham (1938). Last known address: 797 George St.",
+        "tooltip": "<strong>Junius Miller</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 797 George St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1697,7 +1697,7 @@
         "address": "818 Caroline St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Leonard Matthews, age 13 at Cheltenham (1938). Last known address: 818 Caroline St. (1937).",
+        "tooltip": "<strong>Leonard Matthews</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 818 Caroline St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1717,7 +1717,7 @@
         "address": "927 Morris St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Robert Marshall or Henderson, age 11 at Cheltenham (1938). Last known address: 927 Morris St. (1941).",
+        "tooltip": "<strong>Robert Marshall or Henderson</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 927 Morris St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1737,7 +1737,7 @@
         "address": "1608 N. Vincent St.",
         "address_year": null,
         "more_recent_address": "Died 1939",
-        "tooltip": "William McKinney, age 17 at Cheltenham (1938). Last known address: 1608 N. Vincent St. Later: Died 1939.",
+        "tooltip": "<strong>William McKinney</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1608 N. Vincent St. before his commitment. He died in 1939.",
         "geocode_source": "nominatim"
       }
     },
@@ -1757,7 +1757,7 @@
         "address": "310 S. Vincent St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Joseph Melton, age 15 at Cheltenham (1938). Last known address: 310 S. Vincent St. (1939).",
+        "tooltip": "<strong>Joseph Melton</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 310 S. Vincent St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1777,7 +1777,7 @@
         "address": "1360 Stricker St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Eugene Newman, age 15 at Cheltenham (1938). Last known address: 1360 Stricker St. (1938).",
+        "tooltip": "<strong>Eugene Newman</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1360 Stricker St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1797,7 +1797,7 @@
         "address": "1035 N. Carey St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Robert Nickens, age 12 at Cheltenham (1938). Last known address: 1035 N. Carey St. (1937).",
+        "tooltip": "<strong>Robert Nickens</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1035 N. Carey St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1817,7 +1817,7 @@
         "address": "720 N. Stockton St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Leon Porter, age 16 at Cheltenham (1938). Last known address: 720 N. Stockton St. (1936).",
+        "tooltip": "<strong>Leon Porter</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 720 N. Stockton St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1837,7 +1837,7 @@
         "address": "1066 Vine St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Eldridge Prescoe, age 15 at Cheltenham (1938). Last known address: 1066 Vine St. (1935).",
+        "tooltip": "<strong>Eldridge Prescoe</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1066 Vine St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1857,7 +1857,7 @@
         "address": "1315 Webster Alley",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Gordon Payne, age 15 at Cheltenham (1938). Last known address: 1315 Webster Alley (1941).",
+        "tooltip": "<strong>Gordon Payne</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1315 Webster Alley before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1877,7 +1877,7 @@
         "address": "610 N. Caroline St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Willis Parker, age 13 at Cheltenham (1938). Last known address: 610 N. Caroline St. (1941).",
+        "tooltip": "<strong>Willis Parker</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 610 N. Caroline St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1897,7 +1897,7 @@
         "address": "1123 W. Mulberry St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "David Peterson, age 13 at Cheltenham (1938). Last known address: 1123 W. Mulberry St. (1937).",
+        "tooltip": "<strong>David Peterson</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1123 W. Mulberry St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1917,7 +1917,7 @@
         "address": "113 Colvin St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Prince Henry Queen, age 16 at Cheltenham (1938). Last known address: 113 Colvin St. (1939).",
+        "tooltip": "<strong>Prince Henry Queen</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 113 Colvin St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1937,7 +1937,7 @@
         "address": "824 Greenmount Ave.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Herman Rose, age 16 at Cheltenham (1938). Last known address: 824 Greenmount Ave. (1941).",
+        "tooltip": "<strong>Herman Rose</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 824 Greenmount Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1957,7 +1957,7 @@
         "address": "549 N. Amity St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Charles Raikes, age 14 at Cheltenham (1938). Last known address: 549 N. Amity St. (1936).",
+        "tooltip": "<strong>Charles Raikes</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 549 N. Amity St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -1977,7 +1977,7 @@
         "address": "219 Poppleton St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "James Robinson, age 15 at Cheltenham (1938). Last known address: 219 Poppleton St. (1936).",
+        "tooltip": "<strong>James Robinson</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 219 Poppleton St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -1997,7 +1997,7 @@
         "address": "627\u00bd W. Mulberry St.",
         "address_year": null,
         "more_recent_address": "Maryland Pen 1944",
-        "tooltip": "George Risley, age 12 at Cheltenham (1938). Last known address: 627\u00bd W. Mulberry St. Later: Maryland Pen 1944.",
+        "tooltip": "<strong>George Risley</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 627\u00bd W. Mulberry St. before his commitment. By 1944, he was at the Maryland Penitentiary.",
         "geocode_source": "census"
       }
     },
@@ -2017,7 +2017,7 @@
         "address": "1024 Madison Ave.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Joseph Roberts, age 14 at Cheltenham (1938). Last known address: 1024 Madison Ave. (1937).",
+        "tooltip": "<strong>Joseph Roberts</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1024 Madison Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2037,7 +2037,7 @@
         "address": "1606 Saratoga St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Elmer Reese, age 14 at Cheltenham (1938). Last known address: 1606 Saratoga St. (1942).",
+        "tooltip": "<strong>Elmer Reese</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1606 Saratoga St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2057,7 +2057,7 @@
         "address": "21 Fremont Ave.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "George Robinson, age 14 at Cheltenham (1938). Last known address: 21 Fremont Ave. (1937).",
+        "tooltip": "<strong>George Robinson</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 21 Fremont Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2077,7 +2077,7 @@
         "address": "627 Sewell St.",
         "address_year": 1933,
         "more_recent_address": null,
-        "tooltip": "Daniel Smith, age 19 at Cheltenham (1938). Last known address: 627 Sewell St. (1933).",
+        "tooltip": "<strong>Daniel Smith</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 627 Sewell St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2097,7 +2097,7 @@
         "address": "1111 Division St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Calvin Squirrell, age 20 at Cheltenham (1938). Last known address: 1111 Division St. (1935).",
+        "tooltip": "<strong>Calvin Squirrell</strong> was <strong>20</strong> at Cheltenham in 1938. He lived at 1111 Division St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2117,7 +2117,7 @@
         "address": "1402 Mosher St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Louis Stewart, age 18 at Cheltenham (1938). Last known address: 1402 Mosher St. (1935).",
+        "tooltip": "<strong>Louis Stewart</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 1402 Mosher St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2137,7 +2137,7 @@
         "address": "1070 W. Fayette St.",
         "address_year": null,
         "more_recent_address": "235 Schroeder St. 1940",
-        "tooltip": "Charles Sye, age 17 at Cheltenham (1938). Last known address: 1070 W. Fayette St. Later: 235 Schroeder St. 1940.",
+        "tooltip": "<strong>Charles Sye</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1070 W. Fayette St. before his commitment. By 1940, he was living at 235 Schroeder St.",
         "geocode_source": "census"
       }
     },
@@ -2157,7 +2157,7 @@
         "address": "1239 McElderry St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "William Solomon, age 16 at Cheltenham (1938). Last known address: 1239 McElderry St. (1941).",
+        "tooltip": "<strong>William Solomon</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1239 McElderry St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2177,7 +2177,7 @@
         "address": "1607 McCulloh St.",
         "address_year": 1934,
         "more_recent_address": null,
-        "tooltip": "James Smith, age 20 at Cheltenham (1938). Last known address: 1607 McCulloh St. (1934).",
+        "tooltip": "<strong>James Smith</strong> was <strong>20</strong> at Cheltenham in 1938. He lived at 1607 McCulloh St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2197,7 +2197,7 @@
         "address": "2403 Francis St.",
         "address_year": 1934,
         "more_recent_address": null,
-        "tooltip": "Wendall Smith, age 19 at Cheltenham (1938). Last known address: 2403 Francis St. (1934).",
+        "tooltip": "<strong>Wendall Smith</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 2403 Francis St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2217,7 +2217,7 @@
         "address": "1014 S. Sharp St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Matthew Spence, age 15 at Cheltenham (1938). Last known address: 1014 S. Sharp St. (1940).",
+        "tooltip": "<strong>Matthew Spence</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1014 S. Sharp St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2237,7 +2237,7 @@
         "address": "127 N. Amity St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Raymond Salley, age 14 at Cheltenham (1938). Last known address: 127 N. Amity St. (1936).",
+        "tooltip": "<strong>Raymond Salley</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 127 N. Amity St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2257,7 +2257,7 @@
         "address": "307 E. 23rd St.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Louis William Simpson, age 17 at Cheltenham (1938). Last known address: 307 E. 23rd St. (1938).",
+        "tooltip": "<strong>Louis William Simpson</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 307 E. 23rd St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2277,7 +2277,7 @@
         "address": "516 N. Mount St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Howard Spencer or Williams, age 15 at Cheltenham (1938). Last known address: 516 N. Mount St. (1936).",
+        "tooltip": "<strong>Howard Spencer or Williams</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 516 N. Mount St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2297,7 +2297,7 @@
         "address": "1113 Rutland Ave.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "William Simpson, age 15 at Cheltenham (1938). Last known address: 1113 Rutland Ave. (1938).",
+        "tooltip": "<strong>William Simpson</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1113 Rutland Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2317,7 +2317,7 @@
         "address": "620 Sarah Ann St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Charles Stokes, age 13 at Cheltenham (1938). Last known address: 620 Sarah Ann St. (1939).",
+        "tooltip": "<strong>Charles Stokes</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 620 Sarah Ann St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2337,7 +2337,7 @@
         "address": "2321 Guilford Ave.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Joseph Shields, age 15 at Cheltenham (1938). Last known address: 2321 Guilford Ave. (1936).",
+        "tooltip": "<strong>Joseph Shields</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 2321 Guilford Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2357,7 +2357,7 @@
         "address": "913 Calhoun St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Walter Smith, age 13 at Cheltenham (1938). Last known address: 913 Calhoun St. (1936).",
+        "tooltip": "<strong>Walter Smith</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 913 Calhoun St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2377,7 +2377,7 @@
         "address": "123 N. Bond St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Edward Saunders, age 14 at Cheltenham (1938). Last known address: 123 N. Bond St. (1940).",
+        "tooltip": "<strong>Edward Saunders</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 123 N. Bond St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2397,7 +2397,7 @@
         "address": "2607 Boone St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Harold Stewart, age 17 at Cheltenham (1938). Last known address: 2607 Boone St. (1937).",
+        "tooltip": "<strong>Harold Stewart</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 2607 Boone St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2417,7 +2417,7 @@
         "address": "804 W. Lexington St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Milton Spruill, age 11 at Cheltenham (1938). Last known address: 804 W. Lexington St. (1942).",
+        "tooltip": "<strong>Milton Spruill</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 804 W. Lexington St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2437,7 +2437,7 @@
         "address": "1127 Orleans St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "John Thomas Smith, age 12 at Cheltenham (1938). Last known address: 1127 Orleans St. (1937).",
+        "tooltip": "<strong>John Thomas Smith</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1127 Orleans St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2457,7 +2457,7 @@
         "address": "115 Henrietta St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Joseph Spriggs, age 15 at Cheltenham (1938). Last known address: 115 Henrietta St. (1937).",
+        "tooltip": "<strong>Joseph Spriggs</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 115 Henrietta St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2477,7 +2477,7 @@
         "address": "Ida Brewer 135 Aisquith St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Harmon Spence, age 13 at Cheltenham (1938). Last known address: Ida Brewer 135 Aisquith St. (1942).",
+        "tooltip": "<strong>Harmon Spence</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at Ida Brewer 135 Aisquith St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2497,7 +2497,7 @@
         "address": "631 N. Calhoun St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Willie Spady, age 15 at Cheltenham (1938). Last known address: 631 N. Calhoun St. (1937).",
+        "tooltip": "<strong>Willie Spady</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 631 N. Calhoun St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2517,7 +2517,7 @@
         "address": "1046 Argyle Ave.",
         "address_year": null,
         "more_recent_address": null,
-        "tooltip": "Charles Sykes, age 13 at Cheltenham (1938). Last known address: 1046 Argyle Ave.",
+        "tooltip": "<strong>Charles Sykes</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1046 Argyle Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2537,7 +2537,7 @@
         "address": "1621 W. Franklin St.",
         "address_year": null,
         "more_recent_address": "Henryton 1939",
-        "tooltip": "Herman Smith, age 12 at Cheltenham (1938). Last known address: 1621 W. Franklin St. Later: Henryton 1939.",
+        "tooltip": "<strong>Herman Smith</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1621 W. Franklin St. before his commitment. By 1939, he had been committed to Henryton State Hospital.",
         "geocode_source": "census"
       }
     },
@@ -2557,7 +2557,7 @@
         "address": "1006 Creek Alley",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "James Singletary, age 13 at Cheltenham (1938). Last known address: 1006 Creek Alley (1941).",
+        "tooltip": "<strong>James Singletary</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1006 Creek Alley before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2577,7 +2577,7 @@
         "address": "221 W. Biddle St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Norman Smith, age 16 at Cheltenham (1938). Last known address: 221 W. Biddle St. (1941).",
+        "tooltip": "<strong>Norman Smith</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 221 W. Biddle St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2597,7 +2597,7 @@
         "address": "114 N. Bond St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "William Simpson, age 12 at Cheltenham (1938). Last known address: 114 N. Bond St. (1939).",
+        "tooltip": "<strong>William Simpson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 114 N. Bond St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2617,7 +2617,7 @@
         "address": "517 Myrtle Avenue",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Robert Sewell, age 14 at Cheltenham (1938). Last known address: 517 Myrtle Avenue (1937).",
+        "tooltip": "<strong>Robert Sewell</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 517 Myrtle Avenue before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2637,7 +2637,7 @@
         "address": "1703 Dallas St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Eugene Scriber, age 12 at Cheltenham (1938). Last known address: 1703 Dallas St. (1941).",
+        "tooltip": "<strong>Eugene Scriber</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1703 Dallas St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2657,7 +2657,7 @@
         "address": "812 N. Pine St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Melvin Thompson or Thomas, age 14 at Cheltenham (1938). Last known address: 812 N. Pine St. (1941).",
+        "tooltip": "<strong>Melvin Thompson or Thomas</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 812 N. Pine St. before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2677,7 +2677,7 @@
         "address": "2413 Eden St.",
         "address_year": 1933,
         "more_recent_address": "1024 Madison Ave. 1937 Crownsville 1940",
-        "tooltip": "John Thompson, age 16 at Cheltenham (1938). Last known address: 2413 Eden St. (1933). Later: 1024 Madison Ave. 1937 Crownsville 1940.",
+        "tooltip": "<strong>John Thompson</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 2413 Eden St. before his commitment. By 1940, he had been committed to Crownsville State Hospital.",
         "geocode_source": "nominatim"
       }
     },
@@ -2697,7 +2697,7 @@
         "address": "1027 Stockton St.",
         "address_year": 1944,
         "more_recent_address": "Army Detention (10 years) 1944",
-        "tooltip": "Robert Taylor, age 20 at Cheltenham (1938). Last known address: 1027 Stockton St. (1944). Later: Army Detention (10 years) 1944.",
+        "tooltip": "<strong>Robert Taylor</strong> was <strong>20</strong> at Cheltenham in 1938. He lived at 1027 Stockton St. before his commitment. By 1944, he was serving Army detention (10 years).",
         "geocode_source": "census"
       }
     },
@@ -2717,7 +2717,7 @@
         "address": "127 N. Bond St.",
         "address_year": 1934,
         "more_recent_address": "H. of C. 1939",
-        "tooltip": "James Tyler, age 19 at Cheltenham (1938). Last known address: 127 N. Bond St. (1934). Later: H. of C. 1939.",
+        "tooltip": "<strong>James Tyler</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 127 N. Bond St. before his commitment. By 1939, he was at the House of Correction.",
         "geocode_source": "census"
       }
     },
@@ -2737,7 +2737,7 @@
         "address": "808 N. Carrollton Ave.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Douglas Tyler, age 18 at Cheltenham (1938). Last known address: 808 N. Carrollton Ave. (1935).",
+        "tooltip": "<strong>Douglas Tyler</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 808 N. Carrollton Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2757,7 +2757,7 @@
         "address": "1029 Madison Ave.",
         "address_year": null,
         "more_recent_address": "H. of C. 1940",
-        "tooltip": "Christopher Thompson, age 13 at Cheltenham (1938). Last known address: 1029 Madison Ave. Later: H. of C. 1940.",
+        "tooltip": "<strong>Christopher Thompson</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1029 Madison Ave. before his commitment. By 1940, he was at the House of Correction.",
         "geocode_source": "census"
       }
     },
@@ -2777,7 +2777,7 @@
         "address": "858 Vine St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "James Tucker, age 17 at Cheltenham (1938). Last known address: 858 Vine St. (1939).",
+        "tooltip": "<strong>James Tucker</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 858 Vine St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2797,7 +2797,7 @@
         "address": "1040 N. Mount St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Leonard Terry, age 15 at Cheltenham (1938). Last known address: 1040 N. Mount St. (1935).",
+        "tooltip": "<strong>Leonard Terry</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1040 N. Mount St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2817,7 +2817,7 @@
         "address": "112 N. Carlton St.",
         "address_year": 1942,
         "more_recent_address": null,
-        "tooltip": "Thomas Thomas, age 11 at Cheltenham (1938). Last known address: 112 N. Carlton St. (1942).",
+        "tooltip": "<strong>Thomas Thomas</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 112 N. Carlton St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2837,7 +2837,7 @@
         "address": "425 W. Biddle St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Levi Thompson, age 12 at Cheltenham (1938). Last known address: 425 W. Biddle St. (1941).",
+        "tooltip": "<strong>Levi Thompson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 425 W. Biddle St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2857,7 +2857,7 @@
         "address": "802 Ensor St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Joseph Thompson, age 14 at Cheltenham (1938). Last known address: 802 Ensor St. (1936).",
+        "tooltip": "<strong>Joseph Thompson</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 802 Ensor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2877,7 +2877,7 @@
         "address": "1024 Shields Place",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Sam Tates, age 14 at Cheltenham (1938). Last known address: 1024 Shields Place (1941).",
+        "tooltip": "<strong>Sam Tates</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1024 Shields Place before his commitment.",
         "geocode_source": "nominatim"
       }
     },
@@ -2897,7 +2897,7 @@
         "address": "646 W. Hoffman St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "James Tarleton, age 15 at Cheltenham (1938). Last known address: 646 W. Hoffman St. (1941).",
+        "tooltip": "<strong>James Tarleton</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 646 W. Hoffman St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2917,7 +2917,7 @@
         "address": "1376 Woodyear St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "John M. Taylor, age 12 at Cheltenham (1938). Last known address: 1376 Woodyear St. (1941).",
+        "tooltip": "<strong>John M. Taylor</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1376 Woodyear St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2937,7 +2937,7 @@
         "address": "2464 Brentwood Avenue",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Charles Upshur, age 14 at Cheltenham (1938). Last known address: 2464 Brentwood Avenue (1941).",
+        "tooltip": "<strong>Charles Upshur</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 2464 Brentwood Avenue before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2957,7 +2957,7 @@
         "address": "1011 E. Fayette St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Philip Vanderburg, age 16 at Cheltenham (1938). Last known address: 1011 E. Fayette St. (1940).",
+        "tooltip": "<strong>Philip Vanderburg</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1011 E. Fayette St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2977,7 +2977,7 @@
         "address": "812 Tyson St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Grefous Wormack, age 15 at Cheltenham (1938). Last known address: 812 Tyson St. (1940).",
+        "tooltip": "<strong>Grefous Wormack</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 812 Tyson St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -2997,7 +2997,7 @@
         "address": "817 N. Parrish St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Donald Wilson, age 17 at Cheltenham (1938). Last known address: 817 N. Parrish St. (1941).",
+        "tooltip": "<strong>Donald Wilson</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 817 N. Parrish St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3017,7 +3017,7 @@
         "address": "1505 N. Dallas St.",
         "address_year": 1933,
         "more_recent_address": null,
-        "tooltip": "Willis Winn, age 20 at Cheltenham (1938). Last known address: 1505 N. Dallas St. (1933).",
+        "tooltip": "<strong>Willis Winn</strong> was <strong>20</strong> at Cheltenham in 1938. He lived at 1505 N. Dallas St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3037,7 +3037,7 @@
         "address": "1513 Jefferson St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "James West, age 15 at Cheltenham (1938). Last known address: 1513 Jefferson St. (1940).",
+        "tooltip": "<strong>James West</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 1513 Jefferson St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3057,7 +3057,7 @@
         "address": "1821 E. Madison St.",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "John Winston, age 17 at Cheltenham (1938). Last known address: 1821 E. Madison St. (1940).",
+        "tooltip": "<strong>John Winston</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1821 E. Madison St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3077,7 +3077,7 @@
         "address": "248 S. Bethel St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Edward Willis, age 19 at Cheltenham (1938). Last known address: 248 S. Bethel St. (1935).",
+        "tooltip": "<strong>Edward Willis</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 248 S. Bethel St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3097,7 +3097,7 @@
         "address": "35 N. Bruce St.",
         "address_year": 1935,
         "more_recent_address": "Md. Pen 1944",
-        "tooltip": "Arthur Willis, age 17 at Cheltenham (1938). Last known address: 35 N. Bruce St. (1935). Later: Md. Pen 1944.",
+        "tooltip": "<strong>Arthur Willis</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 35 N. Bruce St. before his commitment. By 1944, he was at the Maryland Penitentiary.",
         "geocode_source": "census"
       }
     },
@@ -3117,7 +3117,7 @@
         "address": "1023 Gilmor St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "George Williams, age 18 at Cheltenham (1938). Last known address: 1023 Gilmor St. (1935).",
+        "tooltip": "<strong>George Williams</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 1023 Gilmor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3137,7 +3137,7 @@
         "address": "1212 Lexington St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "John Williams, age 13 at Cheltenham (1938). Last known address: 1212 Lexington St. (1935).",
+        "tooltip": "<strong>John Williams</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1212 Lexington St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3157,7 +3157,7 @@
         "address": "821 Forrest St.",
         "address_year": 1935,
         "more_recent_address": null,
-        "tooltip": "Samuel Wallace, age 18 at Cheltenham (1938). Last known address: 821 Forrest St. (1935).",
+        "tooltip": "<strong>Samuel Wallace</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 821 Forrest St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3177,7 +3177,7 @@
         "address": "724 W. Redwood St.",
         "address_year": 1944,
         "more_recent_address": "722 W. Saratoga St. 1945",
-        "tooltip": "Harry Wilson, age 11 at Cheltenham (1938). Last known address: 724 W. Redwood St. (1944). Later: 722 W. Saratoga St. 1945.",
+        "tooltip": "<strong>Harry Wilson</strong> was <strong>11</strong> at Cheltenham in 1938. He lived at 724 W. Redwood St. before his commitment. By 1945, he was living at 722 W. Saratoga St.",
         "geocode_source": "census"
       }
     },
@@ -3197,7 +3197,7 @@
         "address": "515 W. Biddle St.",
         "address_year": 1943,
         "more_recent_address": "Md. Pen. 1945 (10 years)",
-        "tooltip": "Joseph Ward, age 12 at Cheltenham (1938). Last known address: 515 W. Biddle St. (1943). Later: Md. Pen. 1945 (10 years).",
+        "tooltip": "<strong>Joseph Ward</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 515 W. Biddle St. before his commitment. By 1945, he was at the Maryland Penitentiary (10 years).",
         "geocode_source": "census"
       }
     },
@@ -3217,7 +3217,7 @@
         "address": "1303 Orleans St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Dennis Williams, age 14 at Cheltenham (1938). Last known address: 1303 Orleans St. (1936).",
+        "tooltip": "<strong>Dennis Williams</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 1303 Orleans St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3237,7 +3237,7 @@
         "address": "107 N. Bond St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Major Williams, age 12 at Cheltenham (1938). Last known address: 107 N. Bond St. (1941).",
+        "tooltip": "<strong>Major Williams</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 107 N. Bond St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3257,7 +3257,7 @@
         "address": "1023 N. Gilmor St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Roger Williams, age 16 at Cheltenham (1938). Last known address: 1023 N. Gilmor St. (1936).",
+        "tooltip": "<strong>Roger Williams</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1023 N. Gilmor St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3277,7 +3277,7 @@
         "address": "538 W. Mulberry St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Willis Williams, age 13 at Cheltenham (1938). Last known address: 538 W. Mulberry St. (1941).",
+        "tooltip": "<strong>Willis Williams</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 538 W. Mulberry St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3297,7 +3297,7 @@
         "address": "433 N. Dallas St.",
         "address_year": 1941,
         "more_recent_address": null,
-        "tooltip": "Edward Wheelton, age 14 at Cheltenham (1938). Last known address: 433 N. Dallas St. (1941).",
+        "tooltip": "<strong>Edward Wheelton</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 433 N. Dallas St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3317,7 +3317,7 @@
         "address": "1557 Woodyear St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Clarence Wright, age 17 at Cheltenham (1938). Last known address: 1557 Woodyear St. (1937).",
+        "tooltip": "<strong>Clarence Wright</strong> was <strong>17</strong> at Cheltenham in 1938. He lived at 1557 Woodyear St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3337,7 +3337,7 @@
         "address": "2228 Penna. Ave.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Joseph Webster, age 13 at Cheltenham (1938). Last known address: 2228 Penna. Ave. (1937).",
+        "tooltip": "<strong>Joseph Webster</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 2228 Penna. Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3357,7 +3357,7 @@
         "address": "838 Edmondson Ave.",
         "address_year": 1938,
         "more_recent_address": null,
-        "tooltip": "Ernest H. Waters, age 19 at Cheltenham (1938). Last known address: 838 Edmondson Ave. (1938).",
+        "tooltip": "<strong>Ernest H. Waters</strong> was <strong>19</strong> at Cheltenham in 1938. He lived at 838 Edmondson Ave. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3377,7 +3377,7 @@
         "address": "434 Orchard St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Jesse Wells, age 13 at Cheltenham (1938). Last known address: 434 Orchard St. (1937).",
+        "tooltip": "<strong>Jesse Wells</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 434 Orchard St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3397,7 +3397,7 @@
         "address": "434 Orchard St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "William Woodberry, age 12 at Cheltenham (1938). Last known address: 434 Orchard St. (1937).",
+        "tooltip": "<strong>William Woodberry</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 434 Orchard St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3417,7 +3417,7 @@
         "address": "1010 W. Franklin St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Wallace Wilson, age 12 at Cheltenham (1938). Last known address: 1010 W. Franklin St. (1937).",
+        "tooltip": "<strong>Wallace Wilson</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1010 W. Franklin St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3437,7 +3437,7 @@
         "address": "933 E. Madison St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Ernest Wyatt or Wise, age 18 at Cheltenham (1938). Last known address: 933 E. Madison St. (1937).",
+        "tooltip": "<strong>Ernest Wyatt or Wise</strong> was <strong>18</strong> at Cheltenham in 1938. He lived at 933 E. Madison St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3457,7 +3457,7 @@
         "address": "1007 Creek Alley",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "Charles Warren, age 12 at Cheltenham (1938). Last known address: 1007 Creek Alley (1940).",
+        "tooltip": "<strong>Charles Warren</strong> was <strong>12</strong> at Cheltenham in 1938. He lived at 1007 Creek Alley before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3477,7 +3477,7 @@
         "address": "1007 Creek Alley",
         "address_year": 1940,
         "more_recent_address": null,
-        "tooltip": "James Warren, age 13 at Cheltenham (1938). Last known address: 1007 Creek Alley (1940).",
+        "tooltip": "<strong>James Warren</strong> was <strong>13</strong> at Cheltenham in 1938. He lived at 1007 Creek Alley before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3497,7 +3497,7 @@
         "address": "251 Robert St.",
         "address_year": 1937,
         "more_recent_address": null,
-        "tooltip": "Roland Williams, age 14 at Cheltenham (1938). Last known address: 251 Robert St. (1937).",
+        "tooltip": "<strong>Roland Williams</strong> was <strong>14</strong> at Cheltenham in 1938. He lived at 251 Robert St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3517,7 +3517,7 @@
         "address": "222 W. Biddle St.",
         "address_year": 1939,
         "more_recent_address": null,
-        "tooltip": "Leroy Young or Huggins, age 15 at Cheltenham (1938). Last known address: 222 W. Biddle St. (1939).",
+        "tooltip": "<strong>Leroy Young or Huggins</strong> was <strong>15</strong> at Cheltenham in 1938. He lived at 222 W. Biddle St. before his commitment.",
         "geocode_source": "census"
       }
     },
@@ -3537,7 +3537,7 @@
         "address": "1017 W. Lexington St.",
         "address_year": 1936,
         "more_recent_address": null,
-        "tooltip": "Leonard Young, age 16 at Cheltenham (1938). Last known address: 1017 W. Lexington St. (1936).",
+        "tooltip": "<strong>Leonard Young</strong> was <strong>16</strong> at Cheltenham in 1938. He lived at 1017 W. Lexington St. before his commitment.",
         "geocode_source": "census"
       }
     }

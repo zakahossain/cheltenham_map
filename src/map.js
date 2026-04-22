@@ -46,12 +46,12 @@ const FEATURED_BOYS = ["6256", "6085", "6698", "5904", "6404", "6682"];
 const OVERLAYS = {
   washington_dc: {
     url: "../overlays/dc_trace.png",
-    // dc_trace_ref.png — zoom 11.5, center [-77.0369, 38.9072], 1200×900 CSS px
+    // tuned 2026-04-22 via tweakDC(0.012105, -0.0123, 1.229)
     coordinates: [
-      [-77.1826, 38.9922], // NW
-      [-76.8912, 38.9922], // NE
-      [-76.8912, 38.8221], // SE
-      [-77.1826, 38.8221], // SW
+      [-77.20386029999999, 38.99937645], // NW
+      [-76.8457297,        38.99937645], // NE
+      [-76.8457297,        38.79032355], // SE
+      [-77.20386029999999, 38.79032355], // SW
     ],
   },
   joint_base_andrews: {
@@ -108,8 +108,8 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 5,
-      "circle-color": "#4aa3df",
-      "circle-stroke-color": "#ffffff",
+      "circle-color": "#f0c040",
+      "circle-stroke-color": "#000000",
       "circle-stroke-width": 1,
       "circle-opacity": 0,
       "circle-stroke-opacity": 0,
@@ -123,7 +123,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 12,
-      "circle-color": "#4aa3df",
+      "circle-color": "#f0c040",
       "circle-opacity": 0,
       "circle-blur": 0.8,
     },
@@ -142,7 +142,7 @@ map.on("load", async () => {
       "text-allow-overlap": false,
     },
     paint: {
-      "text-color": "#ffffff",
+      "text-color": "#f0c040",
       "text-halo-color": "#000000",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -174,12 +174,16 @@ map.on("load", async () => {
     source: "anchors",
     layout: {
       "text-field": ["get", "short"],
-      "text-size": 11,
+      "text-size": ["match", ["get", "id"],
+        "washington_dc", 14,
+        "joint_base_andrews", 14,
+        11
+      ],
       "text-anchor": "top",
       "text-offset": [0, 0.9],
     },
     paint: {
-      "text-color": "#ffffff",
+      "text-color": "#f0c040",
       "text-halo-color": "#000000",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -187,6 +191,8 @@ map.on("load", async () => {
   });
 
   // ---- PNG overlays ---------------------------------------------------------
+
+  const firstSymbol = map.getStyle().layers.find(l => l.type === "symbol")?.id;
 
   for (const [id, spec] of Object.entries(OVERLAYS)) {
     map.addSource(`overlay-${id}`, {
@@ -198,8 +204,8 @@ map.on("load", async () => {
       id: `overlay-${id}`,
       type: "raster",
       source: `overlay-${id}`,
-      paint: { "raster-opacity": 0 },
-    });
+      paint: { "raster-opacity": 0, "raster-hue-rotate": 6, "raster-saturation": -0.62 },
+    }, firstSymbol);
   }
 
   // ---- Tooltip --------------------------------------------------------------
@@ -208,8 +214,8 @@ map.on("load", async () => {
   map.on("mousemove", "boys-dots", (e) => {
     const f = e.features[0];
     tooltip.innerHTML = f.properties.tooltip;
-    tooltip.style.left = e.originalEvent.pageX + "px";
-    tooltip.style.top  = e.originalEvent.pageY + "px";
+    tooltip.style.left = e.originalEvent.clientX + "px";
+    tooltip.style.top  = e.originalEvent.clientY + "px";
     tooltip.style.opacity = 1;
     map.getCanvas().style.cursor = "pointer";
   });
@@ -284,15 +290,15 @@ function setupD3Overlay(boys, cheltenham) {
       .append("path")
       .attr("class", "line")
       .attr("fill", "none")
-      .attr("stroke", "#4aa3df")
+      .attr("stroke", "#f0c040")
       .attr("stroke-width", 0.8)
       .attr("stroke-opacity", 0)
       .attr("data-id", (d) => d.properties.id)
       .on("mousemove", function (event, d) {
         const tt = document.getElementById("tooltip");
         tt.innerHTML = d.properties.tooltip;
-        tt.style.left = event.pageX + "px";
-        tt.style.top  = event.pageY + "px";
+        tt.style.left = event.clientX + "px";
+        tt.style.top  = event.clientY + "px";
         tt.style.opacity = 1;
         d3.select(this).attr("stroke-opacity", 1).attr("stroke-width", 1.6);
       })
@@ -319,16 +325,23 @@ function setupD3Overlay(boys, cheltenham) {
     _linesVisible = visible;
     const lines = lineGroup.selectAll("path.line");
     if (visible) {
-      lines
-        .each(function () {
-          const len = this.getTotalLength();
-          d3.select(this).attr("stroke-dasharray", len).attr("stroke-dashoffset", len);
-        })
-        .attr("stroke-opacity", 0.35)
-        .transition()
-        .duration(duration)
-        .delay((_, i) => i * 30)
-        .attr("stroke-dashoffset", 0);
+      if (duration === 0) {
+        lines.interrupt()
+          .attr("stroke-dasharray", null)
+          .attr("stroke-dashoffset", null)
+          .attr("stroke-opacity", 0.35);
+      } else {
+        lines
+          .each(function () {
+            const len = this.getTotalLength();
+            d3.select(this).attr("stroke-dasharray", len).attr("stroke-dashoffset", len);
+          })
+          .attr("stroke-opacity", 0.35)
+          .transition()
+          .duration(duration)
+          .delay((_, i) => i * 30)
+          .attr("stroke-dashoffset", 0);
+      }
     } else {
       lines.interrupt().attr("stroke-opacity", 0).each(function () {
         const len = this.getTotalLength();
@@ -402,6 +415,7 @@ function handleStep(step) {
       fadeOverlay("washington_dc", 0.85);
       fadeOverlay("joint_base_andrews", 0);
       fadeOverlay("cheltenham_graves", 0);
+      startGlow("washington_dc");
       break;
 
     case 4:
@@ -411,9 +425,10 @@ function handleStep(step) {
       window.setLinesVisible(true, 0);
       window.setPulseIds([]);
       setAnchorVisibility(1);
-      fadeOverlay("washington_dc", 0);
+      fadeOverlay("washington_dc", 0.2);
       fadeOverlay("joint_base_andrews", 0.85);
       fadeOverlay("cheltenham_graves", 0);
+      startGlow("joint_base_andrews");
       break;
 
     case 5:
@@ -426,6 +441,7 @@ function handleStep(step) {
       fadeOverlay("washington_dc", 0);
       fadeOverlay("joint_base_andrews", 0.2);
       fadeOverlay("cheltenham_graves", 0.85);
+      startGlow("cheltenham_graves");
       break;
   }
 }
@@ -436,11 +452,48 @@ function setAnchorVisibility(opacity) {
 }
 
 function fadeOverlay(id, opacity) {
+  const duration = opacity > 0 ? 300 : 2000;
+  map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration, delay: 0 });
   map.setPaintProperty(`overlay-${id}`, "raster-opacity", opacity);
 }
 
 function setAllOverlays(opacity) {
+  stopGlow();
   for (const id of Object.keys(OVERLAYS)) fadeOverlay(id, opacity);
+}
+
+let _glowId      = null;
+let _glowRaf     = null;
+let _glowTimeout = null;
+
+function startGlow(id) {
+  stopGlow();
+  _glowId = id;
+  // Wait for the 300ms fade-in to finish before starting the pulse
+  _glowTimeout = setTimeout(() => {
+    if (_glowId !== id) return;
+    // Disable transition so per-frame opacity updates are instant
+    map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration: 0, delay: 0 });
+    const t0 = performance.now();
+    (function tick(t) {
+      if (_glowId !== id) return;
+      map.setPaintProperty(
+        `overlay-${id}`, "raster-opacity",
+        0.625 + 0.275 * Math.sin((t - t0) / 1500 * 2 * Math.PI)
+      );
+      _glowRaf = requestAnimationFrame(tick);
+    })(t0);
+  }, 350);
+}
+
+function stopGlow() {
+  if (_glowTimeout) { clearTimeout(_glowTimeout); _glowTimeout = null; }
+  if (_glowRaf)     { cancelAnimationFrame(_glowRaf); _glowRaf = null; }
+  if (_glowId) {
+    // Restore slow fade-out transition for the next hide
+    map.setPaintProperty(`overlay-${_glowId}`, "raster-opacity-transition", { duration: 2000, delay: 0 });
+    _glowId = null;
+  }
 }
 
 // ---------------------------------------------------------------------------
