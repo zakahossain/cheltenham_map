@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python3 -c \"import pandas, requests, tenacity; print\\('All deps present'\\)\")"
-    ]
-  }
-}

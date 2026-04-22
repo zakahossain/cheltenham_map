@@ -1,34 +1,48 @@
 // ============================================================================
 // Baltimore → Cheltenham — scrollytelling map
 //
-// Stages:
-//   1. Baltimore zoomed, 6 featured boys with name labels, pulsing pucks
-//   2. Baltimore zoomed, all boys visible, labels gone
-//   3. Zoomed-out corridor view — Washington D.C. PNG overlay fades in,
-//      parabolic lines draw from each boy to old Cheltenham
-//   4. Zoomed toward Joint Base Andrews — JBA PNG overlay highlighted
-//   5. Cheltenham close-up — wooded cemetery PNG overlay highlighted
+// For Prof. Rob Wells, JOUR389/689, Philip Merrill College of Journalism
 //
-// Assumptions:
-//   - data/boys.geojson and data/anchors.geojson exist (built by 03_build_geojson.py)
-//   - overlays/ contains PNG traces: washington_dc.png, joint_base_andrews.png,
-//     cheltenham_cemetery.png  (traced in Illustrator; bounds defined in OVERLAYS below)
+// This map accompanies the Cheltenham story. It takes the 1938 reformatory
+// roster — transcribed and researched by Capital News Service and our class —
+// and places each boy's last known Baltimore address on a map, then scrolls
+// the reader south to the facility where many of them died.
+//
+// Five stages:
+//   1. Six featured boys in Baltimore — each with a documented fate after 1938
+//   2. All 177 mapped boys shown across Baltimore
+//   3. Zoomed-out corridor — parabolic lines trace every boy's path south;
+//      Washington D.C. overlay appears for geographic context
+//   4. Zoomed toward Joint Base Andrews — the facility sat just outside
+//      what is now the base perimeter
+//   5. Close-up of Cheltenham — the wooded cemetery where some boys were buried
+//
+// Data pipeline: scripts/03_build_geojson.py reads 02_boys_geocoded.csv and
+// writes data/boys.geojson and data/anchors.geojson. Re-run that script any
+// time the source CSV or anchor coordinates change.
+//
+// PNG overlays (dc_trace.png, jba_trace.png, cemetery_trace.png) were traced
+// in Illustrator over Mapbox screenshots and registered to the viewport bounds
+// recorded in OVERLAYS below. If the base map style ever changes, the bounds
+// will need to be re-verified.
 // ============================================================================
 
 mapboxgl.accessToken = "pk.eyJ1IjoiemFrYWhvc3NhaW4iLCJhIjoiY21vOXR1Nm1wMDB5NTJxcTkwZHh4eWk5aiJ9.BOt5ybqF1zu6uC9T0qZxug";
 
 // ---------------------------------------------------------------------------
-// Camera presets — tuned 2026-04-22
+// Camera presets — one per scroll stage
 // ---------------------------------------------------------------------------
 const STAGES = {
   1: { center: [-76.6134, 39.2949], zoom: 12.3, pitch: 0, bearing: 0 },
   2: { center: [-76.6119, 39.2922], zoom: 11.6, pitch: 0, bearing: 0 },
   3: { center: [-76.7931, 39.0527], zoom: 9.4,  pitch: 0, bearing: 0 },
-  4: { center: [-76.9485, 38.8401], zoom: 10.5, pitch: 0, bearing: 0 }, // zoomed out ~45% from 11.4
+  4: { center: [-76.9485, 38.8401], zoom: 10.5, pitch: 0, bearing: 0 },
   5: { center: [-76.8489, 38.7374], zoom: 13.4, pitch: 0, bearing: 0 },
 };
 
-// Boys whose stories anchor Stage 1 — picked for documented outcomes after Cheltenham
+// Six boys selected for Stage 1 because their post-Cheltenham fates are
+// documented in the research: two killed, one died, one Army detention,
+// one Maryland Penitentiary, one Crownsville State Hospital.
 const FEATURED_BOYS = ["6256", "6085", "6698", "5904", "6404", "6682"];
 // Eugene Duvall, 17     — Killed 1939
 // Lawrence Harvey, 17   — Killed 1939
@@ -39,14 +53,19 @@ const FEATURED_BOYS = ["6256", "6085", "6698", "5904", "6404", "6682"];
 
 // ---------------------------------------------------------------------------
 // PNG overlay bounds — [NW, NE, SE, SW] in [lon, lat]
-// Coordinates match the exact geographic extent of each *_trace_ref.png
-// screenshot (zoom / center noted below). Trace PNGs must be exported at
-// the same pixel dimensions as the reference screenshot (2400 × 1800 px).
+//
+// Each set of coordinates was derived by screenshotting the Mapbox panel at
+// the reference zoom/center, tracing the boundary in Illustrator at the same
+// canvas size (2400 × 1800 px), then exporting a PNG. The four corners map
+// directly to the viewport corners at the moment of the screenshot.
+//
+// NOTE TO SELF: if the site is ever published, double-check the cemetery
+// overlay against the actual burial site location — the coordinates are based
+// on satellite imagery and may need ground-truth verification.
 // ---------------------------------------------------------------------------
 const OVERLAYS = {
   washington_dc: {
     url: "../overlays/dc_trace.png",
-    // tuned 2026-04-22 via tweakDC(0.012105, -0.0123, 1.229)
     coordinates: [
       [-77.20386029999999, 38.99937645], // NW
       [-76.8457297,        38.99937645], // NE
@@ -56,7 +75,6 @@ const OVERLAYS = {
   },
   joint_base_andrews: {
     url: "../overlays/jba_trace.png",
-    // jba_trace_ref.png — zoom 12.5, center [-76.8669, 38.8109], 1200×900 CSS px
     coordinates: [
       [-76.9397, 38.8535], // NW
       [-76.7941, 38.8535], // NE
@@ -66,7 +84,6 @@ const OVERLAYS = {
   },
   cheltenham_graves: {
     url: "../overlays/cemetery_trace.png",
-    // cemetery_trace_ref.png — zoom 14.5, center [-76.8489, 38.7374], 1200×900 CSS px
     coordinates: [
       [-76.8671, 38.7481], // NW
       [-76.8307, 38.7481], // NE
@@ -77,7 +94,7 @@ const OVERLAYS = {
 };
 
 // ---------------------------------------------------------------------------
-// Initialize map
+// Initialize map — interaction disabled; camera is driven by scroll
 // ---------------------------------------------------------------------------
 const map = new mapboxgl.Map({
   container: "map",
@@ -92,9 +109,6 @@ const map = new mapboxgl.Map({
 map.on("load", async () => {
   const boys    = await fetch("../data/boys.geojson").then((r) => r.json());
   const anchors = await fetch("../data/anchors.geojson").then((r) => r.json());
-
-  window._boys    = boys;
-  window._anchors = anchors;
 
   const getAnchor = (id) => anchors.features.find((f) => f.properties.id === id);
 
@@ -116,7 +130,7 @@ map.on("load", async () => {
     },
   });
 
-  // Static blur halo — stage 2 only; stage 1 uses SVG pulse rings instead
+  // Soft glow ring — shown in Stage 2 to give the cluster a sense of density
   map.addLayer({
     id: "boys-halo",
     type: "circle",
@@ -157,7 +171,7 @@ map.on("load", async () => {
     id: "anchor-dots",
     type: "circle",
     source: "anchors",
-    // DC, JBA, and cemetery are shown via PNG overlays — no dot needed for those
+    // DC, JBA, and the cemetery are represented by PNG overlays, not dots
     filter: ["!in", "id", "washington_dc", "joint_base_andrews", "cheltenham_cemetery"],
     paint: {
       "circle-radius": 7,
@@ -174,6 +188,7 @@ map.on("load", async () => {
     source: "anchors",
     layout: {
       "text-field": ["get", "short"],
+      // DC and JBA labels are larger because they anchor geographic orientation
       "text-size": ["match", ["get", "id"],
         "washington_dc", 14,
         "joint_base_andrews", 14,
@@ -191,6 +206,7 @@ map.on("load", async () => {
   });
 
   // ---- PNG overlays ---------------------------------------------------------
+  // Inserted below the first symbol layer so basemap labels render on top
 
   const firstSymbol = map.getStyle().layers.find(l => l.type === "symbol")?.id;
 
@@ -204,11 +220,14 @@ map.on("load", async () => {
       id: `overlay-${id}`,
       type: "raster",
       source: `overlay-${id}`,
+      // hue-rotate + saturation shift the pure-red PNGs toward #e74c3c
       paint: { "raster-opacity": 0, "raster-hue-rotate": 6, "raster-saturation": -0.62 },
     }, firstSymbol);
   }
 
   // ---- Tooltip --------------------------------------------------------------
+  // clientX/clientY (not pageY) because the map wrapper is position: fixed —
+  // pageY includes scroll offset and places the tooltip off-screen mid-story
 
   const tooltip = document.getElementById("tooltip");
   map.on("mousemove", "boys-dots", (e) => {
@@ -241,6 +260,8 @@ function setupD3Overlay(boys, cheltenham) {
 
   function project(lonLat) { return map.project(lonLat); }
 
+  // Arc lifts proportionally to horizontal distance, capped to avoid absurdly
+  // tall curves for boys close to the Cheltenham anchor
   function parabola(start, end) {
     const mx   = (start.x + end.x) / 2;
     const lift = Math.min(Math.abs(end.x - start.x), 300) * 0.75;
@@ -326,6 +347,7 @@ function setupD3Overlay(boys, cheltenham) {
     const lines = lineGroup.selectAll("path.line");
     if (visible) {
       if (duration === 0) {
+        // Skip the stagger transition when lines must appear instantly (Stages 4/5)
         lines.interrupt()
           .attr("stroke-dasharray", null)
           .attr("stroke-dashoffset", null)
@@ -367,6 +389,7 @@ function initScrollama() {
 
 function handleStep(step) {
   const preset     = STAGES[step];
+  // Stage 4 flies a longer distance (Baltimore → Andrews), so it gets more time
   const flyDuration = step === 4 ? 3800 : 2200;
   if (preset) map.flyTo({ ...preset, duration: flyDuration, essential: true });
 
@@ -402,7 +425,6 @@ function handleStep(step) {
       break;
 
     case 3:
-      // Full corridor — lines draw in, DC overlay fades in
       map.setFilter("boys-dots", null);
       map.setPaintProperty("boys-dots", "circle-radius", 3);
       map.setPaintProperty("boys-dots", "circle-opacity", 1);
@@ -419,12 +441,12 @@ function handleStep(step) {
       break;
 
     case 4:
-      // JBA overlay highlighted, DC fades out
       map.setPaintProperty("boys-dots", "circle-radius", 3);
       map.setPaintProperty("anchor-dots", "circle-radius", 7);
       window.setLinesVisible(true, 0);
       window.setPulseIds([]);
       setAnchorVisibility(1);
+      // DC stays faintly visible for orientation, JBA is the focus
       fadeOverlay("washington_dc", 0.2);
       fadeOverlay("joint_base_andrews", 0.85);
       fadeOverlay("cheltenham_graves", 0);
@@ -432,13 +454,13 @@ function handleStep(step) {
       break;
 
     case 5:
-      // Cemetery overlay highlighted
       map.setPaintProperty("boys-dots", "circle-radius", 3);
       map.setPaintProperty("anchor-dots", "circle-radius", 7);
       window.setLinesVisible(true, 0);
       window.setPulseIds([]);
       setAnchorVisibility(1);
       fadeOverlay("washington_dc", 0);
+      // JBA stays faintly visible — we're still in its geographic shadow
       fadeOverlay("joint_base_andrews", 0.2);
       fadeOverlay("cheltenham_graves", 0.85);
       startGlow("cheltenham_graves");
@@ -451,6 +473,8 @@ function setAnchorVisibility(opacity) {
   map.setPaintProperty("anchor-labels", "text-opacity",   opacity);
 }
 
+// Fast fade-in (300ms) so the overlay snaps onto the stage;
+// slow fade-out (2000ms) so it lingers as the reader scrolls away
 function fadeOverlay(id, opacity) {
   const duration = opacity > 0 ? 300 : 2000;
   map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration, delay: 0 });
@@ -469,14 +493,14 @@ let _glowTimeout = null;
 function startGlow(id) {
   stopGlow();
   _glowId = id;
-  // Wait for the 300ms fade-in to finish before starting the pulse
+  // Wait for the 300ms fade-in before beginning the pulse loop
   _glowTimeout = setTimeout(() => {
     if (_glowId !== id) return;
-    // Disable transition so per-frame opacity updates are instant
     map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration: 0, delay: 0 });
     const t0 = performance.now();
     (function tick(t) {
       if (_glowId !== id) return;
+      // Sine wave: oscillates between 0.35 (trough) and 0.90 (peak) over 1.5 s
       map.setPaintProperty(
         `overlay-${id}`, "raster-opacity",
         0.625 + 0.275 * Math.sin((t - t0) / 1500 * 2 * Math.PI)
@@ -490,55 +514,13 @@ function stopGlow() {
   if (_glowTimeout) { clearTimeout(_glowTimeout); _glowTimeout = null; }
   if (_glowRaf)     { cancelAnimationFrame(_glowRaf); _glowRaf = null; }
   if (_glowId) {
-    // Restore slow fade-out transition for the next hide
     map.setPaintProperty(`overlay-${_glowId}`, "raster-opacity-transition", { duration: 2000, delay: 0 });
     _glowId = null;
   }
 }
 
 // ---------------------------------------------------------------------------
-// Dev helpers — available in the browser console
-// ---------------------------------------------------------------------------
-
-// Print current camera state formatted for STAGES — paste result into map.js
-window.printStage = function (n) {
-  const c = map.getCenter();
-  console.log(
-    `${n}: { center: [${c.lng.toFixed(4)}, ${c.lat.toFixed(4)}], ` +
-    `zoom: ${map.getZoom().toFixed(1)}, pitch: ${map.getPitch().toFixed(0)}, bearing: ${map.getBearing().toFixed(0)} },`
-  );
-};
-
-// Print current viewport corners formatted for OVERLAYS — paste result into map.js
-// Then screenshot the map panel: that screenshot IS the Illustrator artboard.
-window.printOverlayBounds = function (id) {
-  const b  = map.getBounds();
-  const nw = b.getNorthWest();
-  const ne = b.getNorthEast();
-  const se = b.getSouthEast();
-  const sw = b.getSouthWest();
-  console.log(
-    `${id}: [\n` +
-    `  [${nw.lng.toFixed(4)}, ${nw.lat.toFixed(4)}], // NW\n` +
-    `  [${ne.lng.toFixed(4)}, ${ne.lat.toFixed(4)}], // NE\n` +
-    `  [${se.lng.toFixed(4)}, ${se.lat.toFixed(4)}], // SE\n` +
-    `  [${sw.lng.toFixed(4)}, ${sw.lat.toFixed(4)}], // SW\n]`
-  );
-};
-
-// Enable all map interaction handlers (useful for camera tuning)
-window.enableInteraction = function () {
-  map.scrollZoom.enable();
-  map.dragPan.enable();
-  map.dragRotate.enable();
-  map.keyboard.enable();
-  map.doubleClickZoom.enable();
-  map.touchZoomRotate.enable();
-  console.log("Map interaction enabled. Use printStage(n) and printOverlayBounds(id) to capture values.");
-};
-
-// ---------------------------------------------------------------------------
-// Resize
+// Keep the SVG overlay sized to the map panel
 // ---------------------------------------------------------------------------
 window.addEventListener("resize", () => {
   const overlay = document.getElementById("overlay");
