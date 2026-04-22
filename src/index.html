@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Baltimore to Cheltenham</title>
+
+<!-- Mapbox GL JS -->
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+
+<!-- Scrollama -->
+<script src="https://unpkg.com/scrollama@3.2.0"></script>
+
+<!-- D3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<!-- Fixed map on the left side -->
+<div id="map-wrapper">
+  <div id="map"></div>
+  <svg id="overlay"></svg>           <!-- D3 draws parabolic lines + radiating pucks here -->
+  <div id="tooltip" aria-hidden="true"></div>
+</div>
+
+<!-- Scrolling narrative on the right -->
+<main id="story">
+
+  <section class="intro">
+    <h1>From Baltimore to Cheltenham</h1>
+    <p class="dek">
+      Between 1870 and 1940, more than 230 Black boys died in state custody at
+      the House of Reformation and Instruction for Colored Children at Cheltenham.
+      In 1938, these boys lived here.
+    </p>
+    <p class="scroll-hint">Scroll to begin ↓</p>
+  </section>
+
+  <section class="step" data-step="1">
+    <div class="card">
+      <h2>1938</h2>
+      <p>
+        Each puck marks a last known Baltimore address — a home a boy left
+        when the state sent him to Cheltenham.
+      </p>
+      <p>
+        Three of the boys shown here were dead within a year of this list.
+        One would spend a decade in Army detention. Another arrived at age 12
+        and was in the Maryland Penitentiary by 19.
+      </p>
+      <p class="caption">Hover a puck to see his story.</p>
+    </div>
+  </section>
+
+  <section class="step" data-step="2">
+    <div class="card">
+      <h2>177 boys</h2>
+      <p>
+        From a single list kept inside the reformatory, researchers
+        reconstructed the Baltimore addresses of 182 boys. Of those,
+        177 addresses can be placed on the map today.
+      </p>
+      <p>
+        The five that couldn't be found are likely streets erased
+        by mid-century urban renewal — the addresses exist in the record
+        but not on any modern map.
+      </p>
+    </div>
+  </section>
+
+  <section class="step" data-step="3">
+    <div class="card">
+      <h2>The path to Cheltenham</h2>
+      <p>
+        The reformatory sat 30 miles south of Washington, D.C., in
+        Prince George's County — just outside the capital's shadow.
+      </p>
+      <p class="caption">Hover any line to see the boy it represents.</p>
+    </div>
+  </section>
+
+  <section class="step" data-step="4">
+    <div class="card">
+      <h2>Beside the base</h2>
+      <p>
+        The House of Reformation and Instruction for Colored Children stood
+        next to what is now Joint Base Andrews.
+      </p>
+    </div>
+  </section>
+
+  <section class="step" data-step="5">
+    <div class="card">
+      <h2>The wooded cemetery</h2>
+      <p>
+        Some boys never left. Their graves lie in a wooded cemetery adjacent
+        to the Cheltenham Veterans Cemetery.
+      </p>
+    </div>
+  </section>
+
+  <section class="outro">
+    <div class="card">
+      <h2>About this map</h2>
+      <p>
+        Based on the 1938 Cheltenham list, transcribed and researched by Capital
+        News Service and the JOUR389/689 class at the University of Maryland's
+        Philip Merrill College of Journalism, with Prof. Rob Wells.
+      </p>
+      <p class="caption">
+        Addresses reflect each boy's last known residence before being committed.
+        Some addresses could not be located or verified. The map excludes boys
+        whose pre-incarceration addresses fall outside Baltimore city.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<script src="map.js"></script>
+</body>
+</html>

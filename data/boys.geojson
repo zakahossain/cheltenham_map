@@ -1,0 +1,3545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.616475762398,
+          39.283985922709
+        ]
+      },
+      "properties": {
+        "id": "6689",
+        "name": "Bernard Aulton",
+        "age": 14,
+        "address": "109 W. Conway St.",
+        "address_year": null,
+        "more_recent_address": null,
+        "tooltip": "Bernard Aulton, age 14 at Cheltenham (1938). Last known address: 109 W. Conway St.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.632391459815,
+          39.292605056683
+        ]
+      },
+      "properties": {
+        "id": "6191",
+        "name": "William Brown",
+        "age": 17,
+        "address": "306 N. Poppleton St.",
+        "address_year": 1934,
+        "more_recent_address": null,
+        "tooltip": "William Brown, age 17 at Cheltenham (1938). Last known address: 306 N. Poppleton St. (1934).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.613500077933,
+          39.292872265449
+        ]
+      },
+      "properties": {
+        "id": "6231",
+        "name": "Richard Bush",
+        "age": 18,
+        "address": "339 St. Paul Pl.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Richard Bush, age 18 at Cheltenham (1938). Last known address: 339 St. Paul Pl. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.617672627443,
+          39.278133429417
+        ]
+      },
+      "properties": {
+        "id": "6272",
+        "name": "Maurice Edward Brown",
+        "age": 13,
+        "address": "164 W. Hamburg St.",
+        "address_year": null,
+        "more_recent_address": "1306 Lemon St. - 1940",
+        "tooltip": "Maurice Edward Brown, age 13 at Cheltenham (1938). Last known address: 164 W. Hamburg St. Later: 1306 Lemon St. 1940.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.636472910026,
+          39.311085848007
+        ]
+      },
+      "properties": {
+        "id": "6361",
+        "name": "Charles Bostick",
+        "age": 16,
+        "address": "1108 Clendenin St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Charles Bostick, age 16 at Cheltenham (1938). Last known address: 1108 Clendenin St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.635713865625,
+          39.304359417682
+        ]
+      },
+      "properties": {
+        "id": "6463",
+        "name": "Gordon Bazzle",
+        "age": 15,
+        "address": "1802 Pennsylvania Ave.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Gordon Bazzle, age 15 at Cheltenham (1938). Last known address: 1802 Pennsylvania Ave. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.635201065434,
+          39.279827568294
+        ]
+      },
+      "properties": {
+        "id": "6543",
+        "name": "James Bosley",
+        "age": 15,
+        "address": "1341 Ward St.",
+        "address_year": 1936,
+        "more_recent_address": "Md. Pen. 1945",
+        "tooltip": "James Bosley, age 15 at Cheltenham (1938). Last known address: 1341 Ward St. (1936). Later: Md. Pen. 1945.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5940821,
+          39.3013844
+        ]
+      },
+      "properties": {
+        "id": "6646",
+        "name": "William Black",
+        "age": 13,
+        "address": "830 Barnes St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "William Black, age 13 at Cheltenham (1938). Last known address: 830 Barnes St. (1937).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.636988978198,
+          39.305016008164
+        ]
+      },
+      "properties": {
+        "id": "6651",
+        "name": "Edward Brown",
+        "age": 14,
+        "address": "608 Waltermeyer Ct.",
+        "address_year": null,
+        "more_recent_address": "1100 Dorn St. 1939",
+        "tooltip": "Edward Brown, age 14 at Cheltenham (1938). Last known address: 608 Waltermeyer Ct. Later: 1100 Dorn St. 1939.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.638796786766,
+          39.301423969837
+        ]
+      },
+      "properties": {
+        "id": "6730",
+        "name": "William Butler",
+        "age": 16,
+        "address": "1117 N. Carey St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "William Butler, age 16 at Cheltenham (1938). Last known address: 1117 N. Carey St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.624896202867,
+          39.30031998385
+        ]
+      },
+      "properties": {
+        "id": "6732",
+        "name": "George Barnes",
+        "age": 12,
+        "address": "1015 McCulloh St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "George Barnes, age 12 at Cheltenham (1938). Last known address: 1015 McCulloh St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634094630908,
+          39.305424535191
+        ]
+      },
+      "properties": {
+        "id": "6761",
+        "name": "James Batts",
+        "age": 15,
+        "address": "523 Laurens St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "James Batts, age 15 at Cheltenham (1938). Last known address: 523 Laurens St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.613236,
+          39.3102989
+        ]
+      },
+      "properties": {
+        "id": "5839",
+        "name": "William Cox",
+        "age": 16,
+        "address": "2002 Hunter St.",
+        "address_year": null,
+        "more_recent_address": "Henryton 1940",
+        "tooltip": "William Cox, age 16 at Cheltenham (1938). Last known address: 2002 Hunter St. Later: Henryton 1940.",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.632798575536,
+          39.295922943192
+        ]
+      },
+      "properties": {
+        "id": "5928",
+        "name": "Raymond Cross",
+        "age": 16,
+        "address": "612 Fremont St.",
+        "address_year": null,
+        "more_recent_address": "Calvert Co. (Lusby P.O. 1942)",
+        "tooltip": "Raymond Cross, age 16 at Cheltenham (1938). Last known address: 612 Fremont St. Later: Calvert Co. (Lusby P.O. 1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.633704055489,
+          39.288328546173
+        ]
+      },
+      "properties": {
+        "id": "6139",
+        "name": "Vernon Carroll or Murdock",
+        "age": 14,
+        "address": "13 S. Schroeder St.",
+        "address_year": 1934,
+        "more_recent_address": null,
+        "tooltip": "Vernon Carroll or Murdock, age 14 at Cheltenham (1938). Last known address: 13 S. Schroeder St. (1934).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634608704634,
+          39.299135012399
+        ]
+      },
+      "properties": {
+        "id": "6255",
+        "name": "Howard Cook",
+        "age": 13,
+        "address": "1003 W. Lafayette Ave.",
+        "address_year": null,
+        "more_recent_address": "1714 W. Lanvale - 1941",
+        "tooltip": "Howard Cook, age 13 at Cheltenham (1938). Last known address: 1003 W. Lafayette Ave. Later: 1714 W. Lanvale 1941.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.637090685674,
+          39.304042814422
+        ]
+      },
+      "properties": {
+        "id": "6257",
+        "name": "Francis Chase",
+        "age": 14,
+        "address": "1359 N. Fremont St.",
+        "address_year": null,
+        "more_recent_address": "1342 N. Fremont - 1936",
+        "tooltip": "Francis Chase, age 14 at Cheltenham (1938). Last known address: 1359 N. Fremont St. Later: 1342 N. Fremont 1936.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.626343710684,
+          39.302489805846
+        ]
+      },
+      "properties": {
+        "id": "6488",
+        "name": "Calvin Cox",
+        "age": 13,
+        "address": "1212 Madison Ave.",
+        "address_year": null,
+        "more_recent_address": "119 Fremont - 1941",
+        "tooltip": "Calvin Cox, age 13 at Cheltenham (1938). Last known address: 1212 Madison Ave. Later: 119 Fremont 1941.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.602883044404,
+          39.29423199733
+        ]
+      },
+      "properties": {
+        "id": "6619",
+        "name": "Russell Collier",
+        "age": 13,
+        "address": "339 Forrest St",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Russell Collier, age 13 at Cheltenham (1938). Last known address: 339 Forrest St (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639805003486,
+          39.30419303284
+        ]
+      },
+      "properties": {
+        "id": "6641",
+        "name": "George Crawford",
+        "age": 14,
+        "address": "1378 Woodyear St.",
+        "address_year": null,
+        "more_recent_address": "H. of C. 1940",
+        "tooltip": "George Crawford, age 14 at Cheltenham (1938). Last known address: 1378 Woodyear St. Later: H. of C. 1940.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639779639449,
+          39.303794251903
+        ]
+      },
+      "properties": {
+        "id": "6727",
+        "name": "Joseph Coates",
+        "age": 15,
+        "address": "1338 Woodyear St.",
+        "address_year": null,
+        "more_recent_address": "1541 N. Gilmor St. 1940",
+        "tooltip": "Joseph Coates, age 15 at Cheltenham (1938). Last known address: 1338 Woodyear St. Later: 1541 N. Gilmor St. 1940.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639209045756,
+          39.300180691724
+        ]
+      },
+      "properties": {
+        "id": "5714",
+        "name": "Marshall Dorsey",
+        "age": 16,
+        "address": "1326 Mosher St.",
+        "address_year": null,
+        "more_recent_address": "1314 N. Calhoun 1937",
+        "tooltip": "Marshall Dorsey, age 16 at Cheltenham (1938). Last known address: 1326 Mosher St. Later: 1314 N. Calhoun 1937.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639,
+          39.3072
+        ]
+      },
+      "properties": {
+        "id": "6256",
+        "name": "Eugene Duvall",
+        "age": 17,
+        "address": "2145 Penna. Ave.",
+        "address_year": null,
+        "more_recent_address": "Killed 1939",
+        "tooltip": "Eugene Duvall, age 17 at Cheltenham (1938). Last known address: 2145 Penna. Ave. Later: Killed 1939.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640282633232,
+          39.293100664123
+        ]
+      },
+      "properties": {
+        "id": "6390",
+        "name": "Turner Dyson",
+        "age": 12,
+        "address": "1431 W. Mulberry St.",
+        "address_year": null,
+        "more_recent_address": "H. of C. 1943",
+        "tooltip": "Turner Dyson, age 12 at Cheltenham (1938). Last known address: 1431 W. Mulberry St. Later: H. of C. 1943.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.594576931637,
+          39.285974195986
+        ]
+      },
+      "properties": {
+        "id": "6456",
+        "name": "Hansiel Dredden",
+        "age": 12,
+        "address": "416 N. Bethel St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Hansiel Dredden, age 12 at Cheltenham (1938). Last known address: 416 N. Bethel St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631023500938,
+          39.291144001081
+        ]
+      },
+      "properties": {
+        "id": "6590",
+        "name": "Landis Denton",
+        "age": 11,
+        "address": "828 W. Lexington St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Landis Denton, age 11 at Cheltenham (1938). Last known address: 828 W. Lexington St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.638305005594,
+          39.305324618417
+        ]
+      },
+      "properties": {
+        "id": "6591",
+        "name": "Bernard Duckett (or Paul)",
+        "age": 13,
+        "address": "1319 Stockton St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Bernard Duckett (or Paul), age 13 at Cheltenham (1938). Last known address: 1319 Stockton St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597245064042,
+          39.301723714924
+        ]
+      },
+      "properties": {
+        "id": "6608",
+        "name": "George Davis",
+        "age": 14,
+        "address": "1501 E. Eager St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "George Davis, age 14 at Cheltenham (1938). Last known address: 1501 E. Eager St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.589815437347,
+          39.29035055294
+        ]
+      },
+      "properties": {
+        "id": "6667",
+        "name": "Emanuel Douglas",
+        "age": 15,
+        "address": "114 N. Chapel St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Emanuel Douglas, age 15 at Cheltenham (1938). Last known address: 114 N. Chapel St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.628620101629,
+          39.289601465435
+        ]
+      },
+      "properties": {
+        "id": "6699",
+        "name": "Clarence Douglas",
+        "age": 13,
+        "address": "738 W. Fairmount Ave.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Clarence Douglas, age 13 at Cheltenham (1938). Last known address: 738 W. Fairmount Ave. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639120957544,
+          39.309183518982
+        ]
+      },
+      "properties": {
+        "id": "6702",
+        "name": "James Russell or Daugherty",
+        "age": 11,
+        "address": "557 Baker Street",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "James Russell or Daugherty, age 11 at Cheltenham (1938). Last known address: 557 Baker Street (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.64105587892,
+          39.303502413695
+        ]
+      },
+      "properties": {
+        "id": "6712",
+        "name": "John D. Dix",
+        "age": 15,
+        "address": "1355 Whatcoat St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "John D. Dix, age 15 at Cheltenham (1938). Last known address: 1355 Whatcoat St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.596787649713,
+          39.299864315623
+        ]
+      },
+      "properties": {
+        "id": "6652",
+        "name": "Nathaniel Edwards",
+        "age": 13,
+        "address": "1014 Dallas St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Nathaniel Edwards, age 13 at Cheltenham (1938). Last known address: 1014 Dallas St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.630747596115,
+          39.297584643571
+        ]
+      },
+      "properties": {
+        "id": "5684",
+        "name": "James Ford",
+        "age": 18,
+        "address": "1135 Myrtle Ave.",
+        "address_year": 1932,
+        "more_recent_address": null,
+        "tooltip": "James Ford, age 18 at Cheltenham (1938). Last known address: 1135 Myrtle Ave. (1932).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6445841,
+          39.310873
+        ]
+      },
+      "properties": {
+        "id": "5773",
+        "name": "Joseph Finley",
+        "age": 16,
+        "address": "414 Bruce St.",
+        "address_year": null,
+        "more_recent_address": "439 Shields Place Norfolk Va. 1940",
+        "tooltip": "Joseph Finley, age 16 at Cheltenham (1938). Last known address: 414 Bruce St. Later: 439 Shields Place Norfolk Va. 1940.",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634407810972,
+          39.292390156294
+        ]
+      },
+      "properties": {
+        "id": "6061",
+        "name": "James Fountain",
+        "age": 18,
+        "address": "1025 W. Saratoga St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "James Fountain, age 18 at Cheltenham (1938). Last known address: 1025 W. Saratoga St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.63469668904,
+          39.292494552531
+        ]
+      },
+      "properties": {
+        "id": "6233",
+        "name": "William Fitchett",
+        "age": 15,
+        "address": "1044 W. Saratoga St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "William Fitchett, age 15 at Cheltenham (1938). Last known address: 1044 W. Saratoga St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603,
+          39.3434
+        ]
+      },
+      "properties": {
+        "id": "6413",
+        "name": "Clarence Fortson",
+        "age": 17,
+        "address": "4404 St. George Ave.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Clarence Fortson, age 17 at Cheltenham (1938). Last known address: 4404 St. George Ave. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.643059469072,
+          39.29766509867
+        ]
+      },
+      "properties": {
+        "id": "6447",
+        "name": "Ernest Forrest",
+        "age": 16,
+        "address": "1607 W. Lanvale St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Ernest Forrest, age 16 at Cheltenham (1938). Last known address: 1607 W. Lanvale St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640579662972,
+          39.308240981319
+        ]
+      },
+      "properties": {
+        "id": "6640",
+        "name": "William Fowlkes",
+        "age": 15,
+        "address": "628 Baker St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "William Fowlkes, age 15 at Cheltenham (1938). Last known address: 628 Baker St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603,
+          39.3434
+        ]
+      },
+      "properties": {
+        "id": "6676",
+        "name": "Yarnzie Fortson",
+        "age": 11,
+        "address": "4404 St. George Ave.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Yarnzie Fortson, age 11 at Cheltenham (1938). Last known address: 4404 St. George Ave. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.617422059548,
+          39.280826170163
+        ]
+      },
+      "properties": {
+        "id": "6323",
+        "name": "James Lee Grant",
+        "age": 17,
+        "address": "705 S. Sharp St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "James Lee Grant, age 17 at Cheltenham (1938). Last known address: 705 S. Sharp St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.596893180568,
+          39.286204401403
+        ]
+      },
+      "properties": {
+        "id": "6559",
+        "name": "Benjamin Gillis",
+        "age": 12,
+        "address": "422 S. Caroline St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Benjamin Gillis, age 12 at Cheltenham (1938). Last known address: 422 S. Caroline St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.632743024456,
+          39.295627252643
+        ]
+      },
+      "properties": {
+        "id": "6629",
+        "name": "Samuel Gardner",
+        "age": 16,
+        "address": "903 Edmondson Ave. Catons.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Samuel Gardner, age 16 at Cheltenham (1938). Last known address: 903 Edmondson Ave. Catons. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6232685,
+          39.294268
+        ]
+      },
+      "properties": {
+        "id": "6085",
+        "name": "Lawrence Harvey",
+        "age": 17,
+        "address": "867 Pierce St.",
+        "address_year": null,
+        "more_recent_address": "Killed 1939",
+        "tooltip": "Lawrence Harvey, age 17 at Cheltenham (1938). Last known address: 867 Pierce St. Later: Killed 1939.",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.622578880437,
+          39.295735922368
+        ]
+      },
+      "properties": {
+        "id": "6284",
+        "name": "Harold Hawkins",
+        "age": 13,
+        "address": "617 George St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Harold Hawkins, age 13 at Cheltenham (1938). Last known address: 617 George St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.641967298804,
+          39.304787739091
+        ]
+      },
+      "properties": {
+        "id": "6289",
+        "name": "James Harris",
+        "age": 12,
+        "address": "1332 Stricker St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "James Harris, age 12 at Cheltenham (1938). Last known address: 1332 Stricker St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.59746032852,
+          39.283070787611
+        ]
+      },
+      "properties": {
+        "id": "6305",
+        "name": "Leroy Henry",
+        "age": 18,
+        "address": "726 N. Spring St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Leroy Henry, age 18 at Cheltenham (1938). Last known address: 726 N. Spring St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634303226391,
+          39.290378192803
+        ]
+      },
+      "properties": {
+        "id": "6394",
+        "name": "William Hailey",
+        "age": 17,
+        "address": "1017 Vine St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "William Hailey, age 17 at Cheltenham (1938). Last known address: 1017 Vine St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6259388,
+          39.2792163
+        ]
+      },
+      "properties": {
+        "id": "6398",
+        "name": "Raymond Hawkins",
+        "age": 16,
+        "address": "540 Burgundy St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Raymond Hawkins, age 16 at Cheltenham (1938). Last known address: 540 Burgundy St. (1940).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.629666507754,
+          39.301166293712
+        ]
+      },
+      "properties": {
+        "id": "6401",
+        "name": "James Horton",
+        "age": 13,
+        "address": "1300 Division St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "James Horton, age 13 at Cheltenham (1938). Last known address: 1300 Division St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640600185343,
+          39.283091003306
+        ]
+      },
+      "properties": {
+        "id": "6467",
+        "name": "Robert Howard",
+        "age": 17,
+        "address": "421 N. Stricker St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Robert Howard, age 17 at Cheltenham (1938). Last known address: 421 N. Stricker St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6093,
+          39.2702
+        ]
+      },
+      "properties": {
+        "id": "6595",
+        "name": "Richard Harper",
+        "age": 15,
+        "address": "524 Johanson St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Richard Harper, age 15 at Cheltenham (1938). Last known address: 524 Johanson St. (1941).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.593236770384,
+          39.301382064081
+        ]
+      },
+      "properties": {
+        "id": "6682",
+        "name": "Hobert Hooper",
+        "age": 13,
+        "address": "1717 Barnes St.",
+        "address_year": null,
+        "more_recent_address": "Crownsville 1939",
+        "tooltip": "Hobert Hooper, age 13 at Cheltenham (1938). Last known address: 1717 Barnes St. Later: Crownsville 1939.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6267358,
+          39.2817672
+        ]
+      },
+      "properties": {
+        "id": "6723",
+        "name": "Joseph Hammond",
+        "age": 17,
+        "address": "513 W. Barre St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Joseph Hammond, age 17 at Cheltenham (1938). Last known address: 513 W. Barre St. (1939).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631227445387,
+          39.2911379283
+        ]
+      },
+      "properties": {
+        "id": "6734",
+        "name": "John Hill",
+        "age": 17,
+        "address": "840 W. Lexington St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "John Hill, age 17 at Cheltenham (1938). Last known address: 840 W. Lexington St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.593543247229,
+          39.30156635894
+        ]
+      },
+      "properties": {
+        "id": "6721",
+        "name": "Forest Ingram",
+        "age": 14,
+        "address": "920 McDonough St.",
+        "address_year": null,
+        "more_recent_address": null,
+        "tooltip": "Forest Ingram, age 14 at Cheltenham (1938). Last known address: 920 McDonough St.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.637822592401,
+          39.30507700849
+        ]
+      },
+      "properties": {
+        "id": "6193",
+        "name": "James Jones",
+        "age": 13,
+        "address": "1370 Fremont Ave.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "James Jones, age 13 at Cheltenham (1938). Last known address: 1370 Fremont Ave. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.595802450237,
+          39.292674387831
+        ]
+      },
+      "properties": {
+        "id": "6254",
+        "name": "Samuel Jones",
+        "age": 15,
+        "address": "105 N. Bond St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Samuel Jones, age 15 at Cheltenham (1938). Last known address: 105 N. Bond St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644801432573,
+          39.304773090756
+        ]
+      },
+      "properties": {
+        "id": "6471",
+        "name": "Leon Johnson Jr.",
+        "age": 14,
+        "address": "1446 Mount St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Leon Johnson Jr., age 14 at Cheltenham (1938). Last known address: 1446 Mount St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.624157622283,
+          39.277116599313
+        ]
+      },
+      "properties": {
+        "id": "6510",
+        "name": "John Jackson",
+        "age": 15,
+        "address": "538 W. West St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "John Jackson, age 15 at Cheltenham (1938). Last known address: 538 W. West St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.584198558788,
+          39.296724918896
+        ]
+      },
+      "properties": {
+        "id": "6541",
+        "name": "Walter Jackson",
+        "age": 12,
+        "address": "2316 Jefferson St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Walter Jackson, age 12 at Cheltenham (1938). Last known address: 2316 Jefferson St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6042377,
+          39.2941275
+        ]
+      },
+      "properties": {
+        "id": "6670b",
+        "name": "Walter Johnson",
+        "age": 12,
+        "address": "1222 St. Matthews St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Walter Johnson, age 12 at Cheltenham (1938). Last known address: 1222 St. Matthews St. (1942).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.656620047902,
+          39.244751681542
+        ]
+      },
+      "properties": {
+        "id": "6705",
+        "name": "Freddie Jones",
+        "age": 14,
+        "address": "426 First St. Wash. SW",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Freddie Jones, age 14 at Cheltenham (1938). Last known address: 426 First St. Wash. SW (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.444248329312,
+          39.22133648137
+        ]
+      },
+      "properties": {
+        "id": "6368",
+        "name": "Benjamin Kenney",
+        "age": 17,
+        "address": "2218 Oak St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Benjamin Kenney, age 17 at Cheltenham (1938). Last known address: 2218 Oak St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.605099550334,
+          39.29904479713
+        ]
+      },
+      "properties": {
+        "id": "6576",
+        "name": "Lawrence Keys",
+        "age": 16,
+        "address": "805 Harford St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Lawrence Keys, age 16 at Cheltenham (1938). Last known address: 805 Harford St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.643426202524,
+          39.305493510722
+        ]
+      },
+      "properties": {
+        "id": "6757",
+        "name": "Charles Keene",
+        "age": 11,
+        "address": "1410 N. Gilmor St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Charles Keene, age 11 at Cheltenham (1938). Last known address: 1410 N. Gilmor St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640244798117,
+          39.308497427897
+        ]
+      },
+      "properties": {
+        "id": "5754",
+        "name": "George Laprade",
+        "age": 19,
+        "address": "588 Baker St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "George Laprade, age 19 at Cheltenham (1938). Last known address: 588 Baker St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644363141819,
+          39.299594500293
+        ]
+      },
+      "properties": {
+        "id": "5852",
+        "name": "Walter Ligons",
+        "age": 15,
+        "address": "933 N. Mount St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Walter Ligons, age 15 at Cheltenham (1938). Last known address: 933 N. Mount St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640037184847,
+          39.308657423447
+        ]
+      },
+      "properties": {
+        "id": "5911",
+        "name": "Rufus Langston",
+        "age": 16,
+        "address": "574 Baker St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Rufus Langston, age 16 at Cheltenham (1938). Last known address: 574 Baker St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.637286020901,
+          39.299833402968
+        ]
+      },
+      "properties": {
+        "id": "6106",
+        "name": "Orville La Cruze",
+        "age": 18,
+        "address": "921 N. Carrollton Ave.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Orville La Cruze, age 18 at Cheltenham (1938). Last known address: 921 N. Carrollton Ave. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.643065705307,
+          39.299344940976
+        ]
+      },
+      "properties": {
+        "id": "6114",
+        "name": "Frank Liggons",
+        "age": 16,
+        "address": "938 N. Gilmor St.",
+        "address_year": 1934,
+        "more_recent_address": null,
+        "tooltip": "Frank Liggons, age 16 at Cheltenham (1938). Last known address: 938 N. Gilmor St. (1934).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.599159509777,
+          39.299381309188
+        ]
+      },
+      "properties": {
+        "id": "6316",
+        "name": "Charles Logan",
+        "age": 18,
+        "address": "811 N. Eden St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Charles Logan, age 18 at Cheltenham (1938). Last known address: 811 N. Eden St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.599159509777,
+          39.299381309188
+        ]
+      },
+      "properties": {
+        "id": "6509",
+        "name": "Edward Leroy Logan",
+        "age": 15,
+        "address": "811 N. Eden St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Edward Leroy Logan, age 15 at Cheltenham (1938). Last known address: 811 N. Eden St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597071901377,
+          39.303209832805
+        ]
+      },
+      "properties": {
+        "id": "6614",
+        "name": "Ellsworth Lecompte",
+        "age": 17,
+        "address": "1518 E. Chase St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Ellsworth Lecompte, age 17 at Cheltenham (1938). Last known address: 1518 E. Chase St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.632245859472,
+          39.296863738015
+        ]
+      },
+      "properties": {
+        "id": "6648",
+        "name": "Jasper Lawson",
+        "age": 13,
+        "address": "843 Harlem Ave.",
+        "address_year": null,
+        "more_recent_address": null,
+        "tooltip": "Jasper Lawson, age 13 at Cheltenham (1938). Last known address: 843 Harlem Ave.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.59489123699,
+          39.301335655037
+        ]
+      },
+      "properties": {
+        "id": "5732",
+        "name": "Harvey Moye",
+        "age": 18,
+        "address": "1621 Barnes St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Harvey Moye, age 18 at Cheltenham (1938). Last known address: 1621 Barnes St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.627211172773,
+          39.293534708785
+        ]
+      },
+      "properties": {
+        "id": "6338",
+        "name": "Albert Matthews",
+        "age": 14,
+        "address": "733 W. Mulberry St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Albert Matthews, age 14 at Cheltenham (1938). Last known address: 733 W. Mulberry St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639612687862,
+          39.41751017318
+        ]
+      },
+      "properties": {
+        "id": "6493",
+        "name": "George Matthews",
+        "age": 10,
+        "address": "1423 Jefferson St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "George Matthews, age 10 at Cheltenham (1938). Last known address: 1423 Jefferson St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.643214644721,
+          39.301642905601
+        ]
+      },
+      "properties": {
+        "id": "6534",
+        "name": "Joseph Miller",
+        "age": 15,
+        "address": "1142 N. Gilmor St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Joseph Miller, age 15 at Cheltenham (1938). Last known address: 1142 N. Gilmor St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.650022396391,
+          39.297639210687
+        ]
+      },
+      "properties": {
+        "id": "6536",
+        "name": "Herbert Mitchell",
+        "age": 18,
+        "address": "806 Bruce St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Herbert Mitchell, age 18 at Cheltenham (1938). Last known address: 806 Bruce St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644367627752,
+          39.307976505398
+        ]
+      },
+      "properties": {
+        "id": "6544",
+        "name": "Vernon Moulton or Morton",
+        "age": 15,
+        "address": "1635 Presbury St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Vernon Moulton or Morton, age 15 at Cheltenham (1938). Last known address: 1635 Presbury St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.629377859569,
+          39.299214900228
+        ]
+      },
+      "properties": {
+        "id": "6577",
+        "name": "James Moore",
+        "age": 17,
+        "address": "1310 Pennsylvania Ave.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "James Moore, age 17 at Cheltenham (1938). Last known address: 1310 Pennsylvania Ave. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.630713464232,
+          39.295378367531
+        ]
+      },
+      "properties": {
+        "id": "6593",
+        "name": "Junius Miller",
+        "age": 15,
+        "address": "797 George St.",
+        "address_year": null,
+        "more_recent_address": null,
+        "tooltip": "Junius Miller, age 15 at Cheltenham (1938). Last known address: 797 George St.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597766030214,
+          39.299566953955
+        ]
+      },
+      "properties": {
+        "id": "6594",
+        "name": "Leonard Matthews",
+        "age": 13,
+        "address": "818 Caroline St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Leonard Matthews, age 13 at Cheltenham (1938). Last known address: 818 Caroline St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6371043,
+          39.3127731
+        ]
+      },
+      "properties": {
+        "id": "6674",
+        "name": "Robert Marshall or Henderson",
+        "age": 11,
+        "address": "927 Morris St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Robert Marshall or Henderson, age 11 at Cheltenham (1938). Last known address: 927 Morris St. (1941).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6437374,
+          39.3003944
+        ]
+      },
+      "properties": {
+        "id": "6698",
+        "name": "William McKinney",
+        "age": 17,
+        "address": "1608 N. Vincent St.",
+        "address_year": null,
+        "more_recent_address": "Died 1939",
+        "tooltip": "William McKinney, age 17 at Cheltenham (1938). Last known address: 1608 N. Vincent St. Later: Died 1939.",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.642917657977,
+          39.284238710944
+        ]
+      },
+      "properties": {
+        "id": "6701",
+        "name": "Joseph Melton",
+        "age": 15,
+        "address": "310 S. Vincent St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Joseph Melton, age 15 at Cheltenham (1938). Last known address: 310 S. Vincent St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.641977097786,
+          39.304933324116
+        ]
+      },
+      "properties": {
+        "id": "6520",
+        "name": "Eugene Newman",
+        "age": 15,
+        "address": "1360 Stricker St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Eugene Newman, age 15 at Cheltenham (1938). Last known address: 1360 Stricker St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.638750808701,
+          39.30070835997
+        ]
+      },
+      "properties": {
+        "id": "6744",
+        "name": "Robert Nickens",
+        "age": 12,
+        "address": "1035 N. Carey St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Robert Nickens, age 12 at Cheltenham (1938). Last known address: 1035 N. Carey St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6382939,
+          39.3044702
+        ]
+      },
+      "properties": {
+        "id": "5837",
+        "name": "Leon Porter",
+        "age": 16,
+        "address": "720 N. Stockton St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Leon Porter, age 16 at Cheltenham (1938). Last known address: 720 N. Stockton St. (1936).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.635354943558,
+          39.290449967823
+        ]
+      },
+      "properties": {
+        "id": "6269",
+        "name": "Eldridge Prescoe",
+        "age": 15,
+        "address": "1066 Vine St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Eldridge Prescoe, age 15 at Cheltenham (1938). Last known address: 1066 Vine St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603268761079,
+          39.273852475996
+        ]
+      },
+      "properties": {
+        "id": "6403",
+        "name": "Gordon Payne",
+        "age": 15,
+        "address": "1315 Webster Alley",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Gordon Payne, age 15 at Cheltenham (1938). Last known address: 1315 Webster Alley (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597621741111,
+          39.29735491335
+        ]
+      },
+      "properties": {
+        "id": "6630",
+        "name": "Willis Parker",
+        "age": 13,
+        "address": "610 N. Caroline St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Willis Parker, age 13 at Cheltenham (1938). Last known address: 610 N. Caroline St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.635908125198,
+          39.293232696359
+        ]
+      },
+      "properties": {
+        "id": "6750",
+        "name": "David Peterson",
+        "age": 13,
+        "address": "1123 W. Mulberry St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "David Peterson, age 13 at Cheltenham (1938). Last known address: 1123 W. Mulberry St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603042834146,
+          39.291881526562
+        ]
+      },
+      "properties": {
+        "id": "6430",
+        "name": "Prince Henry Queen",
+        "age": 16,
+        "address": "113 Colvin St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Prince Henry Queen, age 16 at Cheltenham (1938). Last known address: 113 Colvin St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.606744043501,
+          39.299256733545
+        ]
+      },
+      "properties": {
+        "id": "6322",
+        "name": "Herman Rose",
+        "age": 16,
+        "address": "824 Greenmount Ave.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Herman Rose, age 16 at Cheltenham (1938). Last known address: 824 Greenmount Ave. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.633193,
+          39.2912101
+        ]
+      },
+      "properties": {
+        "id": "6498",
+        "name": "Charles Raikes",
+        "age": 14,
+        "address": "549 N. Amity St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Charles Raikes, age 14 at Cheltenham (1938). Last known address: 549 N. Amity St. (1936).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631845879513,
+          39.285394101544
+        ]
+      },
+      "properties": {
+        "id": "6547",
+        "name": "James Robinson",
+        "age": 15,
+        "address": "219 Poppleton St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "James Robinson, age 15 at Cheltenham (1938). Last known address: 219 Poppleton St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.615564060317,
+          39.294180956906
+        ]
+      },
+      "properties": {
+        "id": "6662",
+        "name": "George Risley",
+        "age": 12,
+        "address": "627\u00bd W. Mulberry St.",
+        "address_year": null,
+        "more_recent_address": "Maryland Pen 1944",
+        "tooltip": "George Risley, age 12 at Cheltenham (1938). Last known address: 627\u00bd W. Mulberry St. Later: Maryland Pen 1944.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62498207314,
+          39.301407339168
+        ]
+      },
+      "properties": {
+        "id": "6673",
+        "name": "Joseph Roberts",
+        "age": 14,
+        "address": "1024 Madison Ave.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Joseph Roberts, age 14 at Cheltenham (1938). Last known address: 1024 Madison Ave. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.642946720069,
+          39.292195381412
+        ]
+      },
+      "properties": {
+        "id": "6748",
+        "name": "Elmer Reese",
+        "age": 14,
+        "address": "1606 Saratoga St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Elmer Reese, age 14 at Cheltenham (1938). Last known address: 1606 Saratoga St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.629216246247,
+          39.289666388908
+        ]
+      },
+      "properties": {
+        "id": "6758",
+        "name": "George Robinson",
+        "age": 14,
+        "address": "21 Fremont Ave.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "George Robinson, age 14 at Cheltenham (1938). Last known address: 21 Fremont Ave. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.636366590964,
+          39.303235045264
+        ]
+      },
+      "properties": {
+        "id": "5465",
+        "name": "Daniel Smith",
+        "age": 19,
+        "address": "627 Sewell St.",
+        "address_year": 1933,
+        "more_recent_address": null,
+        "tooltip": "Daniel Smith, age 19 at Cheltenham (1938). Last known address: 627 Sewell St. (1933).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6296011,
+          39.3011733
+        ]
+      },
+      "properties": {
+        "id": "5704",
+        "name": "Calvin Squirrell",
+        "age": 20,
+        "address": "1111 Division St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Calvin Squirrell, age 20 at Cheltenham (1938). Last known address: 1111 Division St. (1935).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640328728822,
+          39.300137844012
+        ]
+      },
+      "properties": {
+        "id": "5951",
+        "name": "Louis Stewart",
+        "age": 18,
+        "address": "1402 Mosher St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Louis Stewart, age 18 at Cheltenham (1938). Last known address: 1402 Mosher St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.635422284984,
+          39.289919330784
+        ]
+      },
+      "properties": {
+        "id": "5972",
+        "name": "Charles Sye",
+        "age": 17,
+        "address": "1070 W. Fayette St.",
+        "address_year": null,
+        "more_recent_address": "235 Schroeder St. 1940",
+        "tooltip": "Charles Sye, age 17 at Cheltenham (1938). Last known address: 1070 W. Fayette St. Later: 235 Schroeder St. 1940.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.601130236453,
+          39.297421488981
+        ]
+      },
+      "properties": {
+        "id": "6026",
+        "name": "William Solomon",
+        "age": 16,
+        "address": "1239 McElderry St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "William Solomon, age 16 at Cheltenham (1938). Last known address: 1239 McElderry St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.630755343615,
+          39.3050784318
+        ]
+      },
+      "properties": {
+        "id": "6057",
+        "name": "James Smith",
+        "age": 20,
+        "address": "1607 McCulloh St.",
+        "address_year": 1934,
+        "more_recent_address": null,
+        "tooltip": "James Smith, age 20 at Cheltenham (1938). Last known address: 1607 McCulloh St. (1934).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640184385528,
+          39.311303371202
+        ]
+      },
+      "properties": {
+        "id": "6155",
+        "name": "Wendall Smith",
+        "age": 19,
+        "address": "2403 Francis St.",
+        "address_year": 1934,
+        "more_recent_address": null,
+        "tooltip": "Wendall Smith, age 19 at Cheltenham (1938). Last known address: 2403 Francis St. (1934).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6175332,
+          39.2849128
+        ]
+      },
+      "properties": {
+        "id": "6341",
+        "name": "Matthew Spence",
+        "age": 15,
+        "address": "1014 S. Sharp St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Matthew Spence, age 15 at Cheltenham (1938). Last known address: 1014 S. Sharp St. (1940).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.633077145049,
+          39.290405597683
+        ]
+      },
+      "properties": {
+        "id": "6421",
+        "name": "Raymond Salley",
+        "age": 14,
+        "address": "127 N. Amity St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Raymond Salley, age 14 at Cheltenham (1938). Last known address: 127 N. Amity St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.612557357324,
+          39.315372456235
+        ]
+      },
+      "properties": {
+        "id": "6459",
+        "name": "Louis William Simpson",
+        "age": 17,
+        "address": "307 E. 23rd St.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Louis William Simpson, age 17 at Cheltenham (1938). Last known address: 307 E. 23rd St. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644206859112,
+          39.294209920538
+        ]
+      },
+      "properties": {
+        "id": "6460",
+        "name": "Howard Spencer or Williams",
+        "age": 15,
+        "address": "516 N. Mount St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Howard Spencer or Williams, age 15 at Cheltenham (1938). Last known address: 516 N. Mount St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.592477908711,
+          39.303901070221
+        ]
+      },
+      "properties": {
+        "id": "6464",
+        "name": "William Simpson",
+        "age": 15,
+        "address": "1113 Rutland Ave.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "William Simpson, age 15 at Cheltenham (1938). Last known address: 1113 Rutland Ave. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6331756,
+          39.2930141
+        ]
+      },
+      "properties": {
+        "id": "6529",
+        "name": "Charles Stokes",
+        "age": 13,
+        "address": "620 Sarah Ann St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Charles Stokes, age 13 at Cheltenham (1938). Last known address: 620 Sarah Ann St. (1939).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.612669748494,
+          39.315946506378
+        ]
+      },
+      "properties": {
+        "id": "6532",
+        "name": "Joseph Shields",
+        "age": 15,
+        "address": "2321 Guilford Ave.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Joseph Shields, age 15 at Cheltenham (1938). Last known address: 2321 Guilford Ave. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.640096759136,
+          39.299465118087
+        ]
+      },
+      "properties": {
+        "id": "6560",
+        "name": "Walter Smith",
+        "age": 13,
+        "address": "913 Calhoun St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Walter Smith, age 13 at Cheltenham (1938). Last known address: 913 Calhoun St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.595805387129,
+          39.292841791317
+        ]
+      },
+      "properties": {
+        "id": "6573",
+        "name": "Edward Saunders",
+        "age": 14,
+        "address": "123 N. Bond St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Edward Saunders, age 14 at Cheltenham (1938). Last known address: 123 N. Bond St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.608579532632,
+          39.320262824528
+        ]
+      },
+      "properties": {
+        "id": "6588",
+        "name": "Harold Stewart",
+        "age": 17,
+        "address": "2607 Boone St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Harold Stewart, age 17 at Cheltenham (1938). Last known address: 2607 Boone St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.630615612041,
+          39.291156146642
+        ]
+      },
+      "properties": {
+        "id": "6653",
+        "name": "Milton Spruill",
+        "age": 11,
+        "address": "804 W. Lexington St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Milton Spruill, age 11 at Cheltenham (1938). Last known address: 804 W. Lexington St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.602626170264,
+          39.294745455677
+        ]
+      },
+      "properties": {
+        "id": "6669",
+        "name": "John Thomas Smith",
+        "age": 12,
+        "address": "1127 Orleans St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "John Thomas Smith, age 12 at Cheltenham (1938). Last known address: 1127 Orleans St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.616544339751,
+          39.278893237298
+        ]
+      },
+      "properties": {
+        "id": "6672",
+        "name": "Joseph Spriggs",
+        "age": 15,
+        "address": "115 Henrietta St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Joseph Spriggs, age 15 at Cheltenham (1938). Last known address: 115 Henrietta St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.601603875671,
+          39.29323339667
+        ]
+      },
+      "properties": {
+        "id": "6683",
+        "name": "Harmon Spence",
+        "age": 13,
+        "address": "Ida Brewer 135 Aisquith St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Harmon Spence, age 13 at Cheltenham (1938). Last known address: Ida Brewer 135 Aisquith St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639915006159,
+          39.295859387001
+        ]
+      },
+      "properties": {
+        "id": "6696",
+        "name": "Willie Spady",
+        "age": 15,
+        "address": "631 N. Calhoun St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Willie Spady, age 15 at Cheltenham (1938). Last known address: 631 N. Calhoun St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62907480913,
+          39.297486730564
+        ]
+      },
+      "properties": {
+        "id": "6706",
+        "name": "Charles Sykes",
+        "age": 13,
+        "address": "1046 Argyle Ave.",
+        "address_year": null,
+        "more_recent_address": null,
+        "tooltip": "Charles Sykes, age 13 at Cheltenham (1938). Last known address: 1046 Argyle Ave.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.643027642994,
+          39.293940211128
+        ]
+      },
+      "properties": {
+        "id": "6707",
+        "name": "Herman Smith",
+        "age": 12,
+        "address": "1621 W. Franklin St.",
+        "address_year": null,
+        "more_recent_address": "Henryton 1939",
+        "tooltip": "Herman Smith, age 12 at Cheltenham (1938). Last known address: 1621 W. Franklin St. Later: Henryton 1939.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.616839325447,
+          39.27774542911
+        ]
+      },
+      "properties": {
+        "id": "6714",
+        "name": "James Singletary",
+        "age": 13,
+        "address": "1006 Creek Alley",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "James Singletary, age 13 at Cheltenham (1938). Last known address: 1006 Creek Alley (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.612435556147,
+          39.303522246978
+        ]
+      },
+      "properties": {
+        "id": "6742",
+        "name": "Norman Smith",
+        "age": 16,
+        "address": "221 W. Biddle St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Norman Smith, age 16 at Cheltenham (1938). Last known address: 221 W. Biddle St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.595952133945,
+          39.292765834043
+        ]
+      },
+      "properties": {
+        "id": "6751",
+        "name": "William Simpson",
+        "age": 12,
+        "address": "114 N. Bond St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "William Simpson, age 12 at Cheltenham (1938). Last known address: 114 N. Bond St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6345833,
+          39.3006037
+        ]
+      },
+      "properties": {
+        "id": "6754",
+        "name": "Robert Sewell",
+        "age": 14,
+        "address": "517 Myrtle Avenue",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Robert Sewell, age 14 at Cheltenham (1938). Last known address: 517 Myrtle Avenue (1937).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597542415633,
+          39.309578153037
+        ]
+      },
+      "properties": {
+        "id": "6755",
+        "name": "Eugene Scriber",
+        "age": 12,
+        "address": "1703 Dallas St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Eugene Scriber, age 12 at Cheltenham (1938). Last known address: 1703 Dallas St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6269767,
+          39.2914498
+        ]
+      },
+      "properties": {
+        "id": "5824",
+        "name": "Melvin Thompson or Thomas",
+        "age": 14,
+        "address": "812 N. Pine St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Melvin Thompson or Thomas, age 14 at Cheltenham (1938). Last known address: 812 N. Pine St. (1941).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.599308,
+          39.3008051
+        ]
+      },
+      "properties": {
+        "id": "5880",
+        "name": "John Thompson",
+        "age": 16,
+        "address": "2413 Eden St.",
+        "address_year": 1933,
+        "more_recent_address": "1024 Madison Ave. 1937 Crownsville 1940",
+        "tooltip": "John Thompson, age 16 at Cheltenham (1938). Last known address: 2413 Eden St. (1933). Later: 1024 Madison Ave. 1937 Crownsville 1940.",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.638041090429,
+          39.300757553763
+        ]
+      },
+      "properties": {
+        "id": "5904",
+        "name": "Robert Taylor",
+        "age": 20,
+        "address": "1027 Stockton St.",
+        "address_year": 1944,
+        "more_recent_address": "Army Detention (10 years) 1944",
+        "tooltip": "Robert Taylor, age 20 at Cheltenham (1938). Last known address: 1027 Stockton St. (1944). Later: Army Detention (10 years) 1944.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.595806039772,
+          39.292878992092
+        ]
+      },
+      "properties": {
+        "id": "6037",
+        "name": "James Tyler",
+        "age": 19,
+        "address": "127 N. Bond St.",
+        "address_year": 1934,
+        "more_recent_address": "H. of C. 1939",
+        "tooltip": "James Tyler, age 19 at Cheltenham (1938). Last known address: 127 N. Bond St. (1934). Later: H. of C. 1939.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.637340883723,
+          39.298059305245
+        ]
+      },
+      "properties": {
+        "id": "6111",
+        "name": "Douglas Tyler",
+        "age": 18,
+        "address": "808 N. Carrollton Ave.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Douglas Tyler, age 18 at Cheltenham (1938). Last known address: 808 N. Carrollton Ave. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.624339605514,
+          39.301043952267
+        ]
+      },
+      "properties": {
+        "id": "6133",
+        "name": "Christopher Thompson",
+        "age": 13,
+        "address": "1029 Madison Ave.",
+        "address_year": null,
+        "more_recent_address": "H. of C. 1940",
+        "tooltip": "Christopher Thompson, age 13 at Cheltenham (1938). Last known address: 1029 Madison Ave. Later: H. of C. 1940.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631447094538,
+          39.290576045473
+        ]
+      },
+      "properties": {
+        "id": "6270",
+        "name": "James Tucker",
+        "age": 17,
+        "address": "858 Vine St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "James Tucker, age 17 at Cheltenham (1938). Last known address: 858 Vine St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644568548733,
+          39.300414611448
+        ]
+      },
+      "properties": {
+        "id": "6354",
+        "name": "Leonard Terry",
+        "age": 15,
+        "address": "1040 N. Mount St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Leonard Terry, age 15 at Cheltenham (1938). Last known address: 1040 N. Mount St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.636178737449,
+          39.290480895055
+        ]
+      },
+      "properties": {
+        "id": "6379",
+        "name": "Thomas Thomas",
+        "age": 11,
+        "address": "112 N. Carlton St.",
+        "address_year": 1942,
+        "more_recent_address": null,
+        "tooltip": "Thomas Thomas, age 11 at Cheltenham (1938). Last known address: 112 N. Carlton St. (1942).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610221388734,
+          39.303632069161
+        ]
+      },
+      "properties": {
+        "id": "6545",
+        "name": "Levi Thompson",
+        "age": 12,
+        "address": "425 W. Biddle St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Levi Thompson, age 12 at Cheltenham (1938). Last known address: 425 W. Biddle St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603803877106,
+          39.299159759809
+        ]
+      },
+      "properties": {
+        "id": "6508",
+        "name": "Joseph Thompson",
+        "age": 14,
+        "address": "802 Ensor St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Joseph Thompson, age 14 at Cheltenham (1938). Last known address: 802 Ensor St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6332499,
+          39.3002483
+        ]
+      },
+      "properties": {
+        "id": "6575",
+        "name": "Sam Tates",
+        "age": 14,
+        "address": "1024 Shields Place",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Sam Tates, age 14 at Cheltenham (1938). Last known address: 1024 Shields Place (1941).",
+        "geocode_source": "nominatim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62885969069,
+          39.298553711232
+        ]
+      },
+      "properties": {
+        "id": "6663",
+        "name": "James Tarleton",
+        "age": 15,
+        "address": "646 W. Hoffman St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "James Tarleton, age 15 at Cheltenham (1938). Last known address: 646 W. Hoffman St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639803774592,
+          39.304173097431
+        ]
+      },
+      "properties": {
+        "id": "6713",
+        "name": "John M. Taylor",
+        "age": 12,
+        "address": "1376 Woodyear St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "John M. Taylor, age 12 at Cheltenham (1938). Last known address: 1376 Woodyear St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610481590546,
+          39.317452104947
+        ]
+      },
+      "properties": {
+        "id": "6677",
+        "name": "Charles Upshur",
+        "age": 14,
+        "address": "2464 Brentwood Avenue",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Charles Upshur, age 14 at Cheltenham (1938). Last known address: 2464 Brentwood Avenue (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.603576971892,
+          39.291419285118
+        ]
+      },
+      "properties": {
+        "id": "6249",
+        "name": "Philip Vanderburg",
+        "age": 16,
+        "address": "1011 E. Fayette St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Philip Vanderburg, age 16 at Cheltenham (1938). Last known address: 1011 E. Fayette St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.619371111545,
+          39.298801595887
+        ]
+      },
+      "properties": {
+        "id": "5906",
+        "name": "Grefous Wormack",
+        "age": 15,
+        "address": "812 Tyson St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Grefous Wormack, age 15 at Cheltenham (1938). Last known address: 812 Tyson St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.642198158257,
+          39.299063111352
+        ]
+      },
+      "properties": {
+        "id": "5994",
+        "name": "Donald Wilson",
+        "age": 17,
+        "address": "817 N. Parrish St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Donald Wilson, age 17 at Cheltenham (1938). Last known address: 817 N. Parrish St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597400248487,
+          39.30746638644
+        ]
+      },
+      "properties": {
+        "id": "5999",
+        "name": "Willis Winn",
+        "age": 20,
+        "address": "1505 N. Dallas St.",
+        "address_year": 1933,
+        "more_recent_address": null,
+        "tooltip": "Willis Winn, age 20 at Cheltenham (1938). Last known address: 1505 N. Dallas St. (1933).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.597325838174,
+          39.296080736923
+        ]
+      },
+      "properties": {
+        "id": "6101",
+        "name": "James West",
+        "age": 15,
+        "address": "1513 Jefferson St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "James West, age 15 at Cheltenham (1938). Last known address: 1513 Jefferson St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.591559352497,
+          39.299570763011
+        ]
+      },
+      "properties": {
+        "id": "6190",
+        "name": "John Winston",
+        "age": 17,
+        "address": "1821 E. Madison St.",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "John Winston, age 17 at Cheltenham (1938). Last known address: 1821 E. Madison St. (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.594749399973,
+          39.288164696656
+        ]
+      },
+      "properties": {
+        "id": "6242",
+        "name": "Edward Willis",
+        "age": 19,
+        "address": "248 S. Bethel St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Edward Willis, age 19 at Cheltenham (1938). Last known address: 248 S. Bethel St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.644475883774,
+          39.288740719655
+        ]
+      },
+      "properties": {
+        "id": "6298",
+        "name": "Arthur Willis",
+        "age": 17,
+        "address": "35 N. Bruce St.",
+        "address_year": 1935,
+        "more_recent_address": "Md. Pen 1944",
+        "tooltip": "Arthur Willis, age 17 at Cheltenham (1938). Last known address: 35 N. Bruce St. (1935). Later: Md. Pen 1944.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.64297230444,
+          39.300300047263
+        ]
+      },
+      "properties": {
+        "id": "6334",
+        "name": "George Williams",
+        "age": 18,
+        "address": "1023 Gilmor St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "George Williams, age 18 at Cheltenham (1938). Last known address: 1023 Gilmor St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.637396780763,
+          39.290964398517
+        ]
+      },
+      "properties": {
+        "id": "6336",
+        "name": "John Williams",
+        "age": 13,
+        "address": "1212 Lexington St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "John Williams, age 13 at Cheltenham (1938). Last known address: 1212 Lexington St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.607399041733,
+          39.299218240034
+        ]
+      },
+      "properties": {
+        "id": "6340",
+        "name": "Samuel Wallace",
+        "age": 18,
+        "address": "821 Forrest St.",
+        "address_year": 1935,
+        "more_recent_address": null,
+        "tooltip": "Samuel Wallace, age 18 at Cheltenham (1938). Last known address: 821 Forrest St. (1935).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.627112002311,
+          39.288438892657
+        ]
+      },
+      "properties": {
+        "id": "6389",
+        "name": "Harry Wilson",
+        "age": 11,
+        "address": "724 W. Redwood St.",
+        "address_year": 1944,
+        "more_recent_address": "722 W. Saratoga St. 1945",
+        "tooltip": "Harry Wilson, age 11 at Cheltenham (1938). Last known address: 724 W. Redwood St. (1944). Later: 722 W. Saratoga St. 1945.",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.609438015192,
+          39.303669073934
+        ]
+      },
+      "properties": {
+        "id": "6404",
+        "name": "Joseph Ward",
+        "age": 12,
+        "address": "515 W. Biddle St.",
+        "address_year": 1943,
+        "more_recent_address": "Md. Pen. 1945 (10 years)",
+        "tooltip": "Joseph Ward, age 12 at Cheltenham (1938). Last known address: 515 W. Biddle St. (1943). Later: Md. Pen. 1945 (10 years).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5997426218,
+          39.294864545592
+        ]
+      },
+      "properties": {
+        "id": "6446",
+        "name": "Dennis Williams",
+        "age": 14,
+        "address": "1303 Orleans St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Dennis Williams, age 14 at Cheltenham (1938). Last known address: 1303 Orleans St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.595802776558,
+          39.292692988218
+        ]
+      },
+      "properties": {
+        "id": "6511",
+        "name": "Major Williams",
+        "age": 12,
+        "address": "107 N. Bond St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Major Williams, age 12 at Cheltenham (1938). Last known address: 107 N. Bond St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.64297230444,
+          39.300300047263
+        ]
+      },
+      "properties": {
+        "id": "6515",
+        "name": "Roger Williams",
+        "age": 16,
+        "address": "1023 N. Gilmor St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Roger Williams, age 16 at Cheltenham (1938). Last known address: 1023 N. Gilmor St. (1936).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.623435106376,
+          39.293841851865
+        ]
+      },
+      "properties": {
+        "id": "6570",
+        "name": "Willis Williams",
+        "age": 13,
+        "address": "538 W. Mulberry St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Willis Williams, age 13 at Cheltenham (1938). Last known address: 538 W. Mulberry St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.596044714807,
+          39.286145331356
+        ]
+      },
+      "properties": {
+        "id": "6571",
+        "name": "Edward Wheelton",
+        "age": 14,
+        "address": "433 N. Dallas St.",
+        "address_year": 1941,
+        "more_recent_address": null,
+        "tooltip": "Edward Wheelton, age 14 at Cheltenham (1938). Last known address: 433 N. Dallas St. (1941).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.639718053509,
+          39.305187595556
+        ]
+      },
+      "properties": {
+        "id": "6610",
+        "name": "Clarence Wright",
+        "age": 17,
+        "address": "1557 Woodyear St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Clarence Wright, age 17 at Cheltenham (1938). Last known address: 1557 Woodyear St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.64,
+          39.3079
+        ]
+      },
+      "properties": {
+        "id": "6625",
+        "name": "Joseph Webster",
+        "age": 13,
+        "address": "2228 Penna. Ave.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Joseph Webster, age 13 at Cheltenham (1938). Last known address: 2228 Penna. Ave. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631627801945,
+          39.296187985354
+        ]
+      },
+      "properties": {
+        "id": "6647",
+        "name": "Ernest H. Waters",
+        "age": 19,
+        "address": "838 Edmondson Ave.",
+        "address_year": 1938,
+        "more_recent_address": null,
+        "tooltip": "Ernest H. Waters, age 19 at Cheltenham (1938). Last known address: 838 Edmondson Ave. (1938).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.623181185091,
+          39.298118464498
+        ]
+      },
+      "properties": {
+        "id": "6649",
+        "name": "Jesse Wells",
+        "age": 13,
+        "address": "434 Orchard St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Jesse Wells, age 13 at Cheltenham (1938). Last known address: 434 Orchard St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.623181185091,
+          39.298118464498
+        ]
+      },
+      "properties": {
+        "id": "6650",
+        "name": "William Woodberry",
+        "age": 12,
+        "address": "434 Orchard St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "William Woodberry, age 12 at Cheltenham (1938). Last known address: 434 Orchard St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634348121649,
+          39.294401708626
+        ]
+      },
+      "properties": {
+        "id": "6664",
+        "name": "Wallace Wilson",
+        "age": 12,
+        "address": "1010 W. Franklin St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Wallace Wilson, age 12 at Cheltenham (1938). Last known address: 1010 W. Franklin St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.604937805589,
+          39.298969978146
+        ]
+      },
+      "properties": {
+        "id": "6666",
+        "name": "Ernest Wyatt or Wise",
+        "age": 18,
+        "address": "933 E. Madison St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Ernest Wyatt or Wise, age 18 at Cheltenham (1938). Last known address: 933 E. Madison St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.616699113397,
+          39.277708672002
+        ]
+      },
+      "properties": {
+        "id": "6691",
+        "name": "Charles Warren",
+        "age": 12,
+        "address": "1007 Creek Alley",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "Charles Warren, age 12 at Cheltenham (1938). Last known address: 1007 Creek Alley (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.616699113397,
+          39.277708672002
+        ]
+      },
+      "properties": {
+        "id": "6694",
+        "name": "James Warren",
+        "age": 13,
+        "address": "1007 Creek Alley",
+        "address_year": 1940,
+        "more_recent_address": null,
+        "tooltip": "James Warren, age 13 at Cheltenham (1938). Last known address: 1007 Creek Alley (1940).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.630294874598,
+          39.309754843646
+        ]
+      },
+      "properties": {
+        "id": "6743",
+        "name": "Roland Williams",
+        "age": 14,
+        "address": "251 Robert St.",
+        "address_year": 1937,
+        "more_recent_address": null,
+        "tooltip": "Roland Williams, age 14 at Cheltenham (1938). Last known address: 251 Robert St. (1937).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.612463878919,
+          39.30363648001
+        ]
+      },
+      "properties": {
+        "id": "5941",
+        "name": "Leroy Young or Huggins",
+        "age": 15,
+        "address": "222 W. Biddle St.",
+        "address_year": 1939,
+        "more_recent_address": null,
+        "tooltip": "Leroy Young or Huggins, age 15 at Cheltenham (1938). Last known address: 222 W. Biddle St. (1939).",
+        "geocode_source": "census"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.634425438561,
+          39.290914384457
+        ]
+      },
+      "properties": {
+        "id": "6485",
+        "name": "Leonard Young",
+        "age": 16,
+        "address": "1017 W. Lexington St.",
+        "address_year": 1936,
+        "more_recent_address": null,
+        "tooltip": "Leonard Young, age 16 at Cheltenham (1938). Last known address: 1017 W. Lexington St. (1936).",
+        "geocode_source": "census"
+      }
+    }
+  ]
+}

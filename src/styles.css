@@ -1,0 +1,166 @@
+/* Baltimore → Cheltenham scrollytelling styles */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  background: #0a0a0a;
+  color: #e8e8e8;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Sticky map on the left */
+#map-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 65vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* let map receive events; re-enable on individual line paths */
+  z-index: 2;
+}
+
+#overlay .line { pointer-events: stroke; cursor: pointer; }
+
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  max-width: 320px;
+  padding: 10px 14px;
+  background: rgba(15, 15, 15, 0.95);
+  color: #fff;
+  border: 1px solid #3a3a3a;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  z-index: 10;
+  transform: translate(12px, 12px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Scrolling narrative — sits on top of the map, anchored to the right */
+#story {
+  position: relative;
+  width: 35vw;
+  margin-left: 65vw;
+  z-index: 3;
+  padding: 0;
+}
+
+#story section {
+  min-height: 100vh;
+  padding: 40vh 40px 20vh 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#story .intro,
+#story .outro {
+  min-height: 100vh;
+  padding: 30vh 40px;
+}
+
+#story h1 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#story h2 {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  line-height: 1.25;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+#story p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  color: #d0d0d0;
+}
+
+#story .dek {
+  font-size: 19px;
+  color: #bdbdbd;
+  max-width: 500px;
+}
+
+#story .caption {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}
+
+#story .scroll-hint {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#story .card {
+  background: rgba(18, 18, 18, 0.92);
+  padding: 22px 26px;
+  border-left: 3px solid #4aa3df;
+  border-radius: 2px;
+  max-width: 460px;
+  backdrop-filter: blur(8px);
+}
+
+/* Animated pulse rings for featured boys (Stage 1)
+   Uses transform: scale so r stays a fixed attribute;
+   transform-box: fill-box keeps the origin at each circle's own center. */
+@keyframes pulse-ring {
+  0%   { transform: scale(0.5); opacity: 0.45; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.pulse-ring {
+  fill: #4aa3df;
+  stroke: none;
+  pointer-events: none;
+  animation: pulse-ring 1.5s ease-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* Responsive — stack on mobile */
+@media (max-width: 900px) {
+  #map-wrapper {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 70vh;
+  }
+  #story {
+    width: 100vw;
+    margin-left: 0;
+  }
+  #story section {
+    padding: 10vh 24px;
+  }
+  #story .card { max-width: 100%; }
+}

@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8483,
+          38.7394
+        ]
+      },
+      "properties": {
+        "id": "cheltenham_old",
+        "name": "House of Reformation and Instruction for Colored Children (original site)",
+        "short": "Old Cheltenham facility",
+        "note": "VERIFY COORDINATES with on-site research. Adjacent to current facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.85,
+          38.741
+        ]
+      },
+      "properties": {
+        "id": "cheltenham_cemetery",
+        "name": "Cheltenham wooded cemetery",
+        "short": "Cemetery (burial site)",
+        "note": "VERIFY COORDINATES. Adjacent to Cheltenham Veterans Cemetery."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      },
+      "properties": {
+        "id": "washington_dc",
+        "name": "Washington, D.C.",
+        "short": "Washington, D.C."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8669,
+          38.8109
+        ]
+      },
+      "properties": {
+        "id": "joint_base_andrews",
+        "name": "Joint Base Andrews",
+        "short": "Joint Base Andrews"
+      }
+    }
+  ]
+}
