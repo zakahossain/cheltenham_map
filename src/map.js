@@ -23,8 +23,9 @@
 //
 // PNG overlays (dc_trace.png, jba_trace.png, cemetery_trace.png) were traced
 // in Illustrator over Mapbox screenshots and registered to the viewport bounds
-// recorded in OVERLAYS below. If the base map style ever changes, the bounds
-// will need to be re-verified.
+// recorded in OVERLAYS below. They are rendered as SVG <image> elements with
+// mix-blend-mode: screen so they blend with the basemap rather than covering it.
+// If the base map style ever changes, the bounds will need to be re-verified.
 // ============================================================================
 
 mapboxgl.accessToken = "pk.eyJ1IjoiemFrYWhvc3NhaW4iLCJhIjoiY21vOXR1Nm1wMDB5NTJxcTkwZHh4eWk5aiJ9.BOt5ybqF1zu6uC9T0qZxug";
@@ -92,6 +93,9 @@ const OVERLAYS = {
     ],
   },
 };
+
+// SVG image elements for each overlay — populated in setupD3Overlay
+let _overlayImages = {};
 
 // ---------------------------------------------------------------------------
 // Initialize map — interaction disabled; camera is driven by scroll
@@ -205,26 +209,6 @@ map.on("load", async () => {
     },
   });
 
-  // ---- PNG overlays ---------------------------------------------------------
-  // Inserted below the first symbol layer so basemap labels render on top
-
-  const firstSymbol = map.getStyle().layers.find(l => l.type === "symbol")?.id;
-
-  for (const [id, spec] of Object.entries(OVERLAYS)) {
-    map.addSource(`overlay-${id}`, {
-      type: "image",
-      url: spec.url,
-      coordinates: spec.coordinates,
-    });
-    map.addLayer({
-      id: `overlay-${id}`,
-      type: "raster",
-      source: `overlay-${id}`,
-      // hue-rotate + saturation shift the pure-red PNGs toward #e74c3c
-      paint: { "raster-opacity": 0, "raster-hue-rotate": 6, "raster-saturation": -0.62 },
-    }, firstSymbol);
-  }
-
   // ---- Tooltip --------------------------------------------------------------
   // clientX/clientY (not pageY) because the map wrapper is position: fixed —
   // pageY includes scroll offset and places the tooltip off-screen mid-story
@@ -250,10 +234,38 @@ map.on("load", async () => {
 });
 
 // ---------------------------------------------------------------------------
-// D3 overlay — parabolic lines (Stage 3+) and animated pulse rings (Stage 1)
+// D3 overlay — PNG overlays, parabolic lines (Stage 3+), pulse rings (Stage 1)
 // ---------------------------------------------------------------------------
 function setupD3Overlay(boys, cheltenham) {
   const svg = d3.select("#overlay");
+
+  // Overlays sit at the bottom of the SVG stack so lines and pulses render
+  // on top. mix-blend-mode: screen lets the basemap show through.
+  const overlayGroup = svg.append("g").attr("class", "svg-overlays");
+  for (const [id, spec] of Object.entries(OVERLAYS)) {
+    _overlayImages[id] = overlayGroup.append("image")
+      .attr("href", spec.url)
+      .attr("preserveAspectRatio", "none")
+      .style("opacity", 0)
+      .style("mix-blend-mode", "screen")
+      // Subtle hue + saturation shift to match the #e74c3c accent red
+      .style("filter", "hue-rotate(6deg) saturate(0.38)")
+      .style("pointer-events", "none");
+  }
+
+  function updateOverlayPositions() {
+    for (const [id, spec] of Object.entries(OVERLAYS)) {
+      const [nw, ne, se] = spec.coordinates; // each is [lon, lat]
+      const pNW = map.project(nw);
+      const pNE = map.project(ne);
+      const pSE = map.project(se);
+      _overlayImages[id]
+        .attr("x",      pNW.x)
+        .attr("y",      pNW.y)
+        .attr("width",  pNE.x - pNW.x)
+        .attr("height", pSE.y - pNW.y);
+    }
+  }
 
   const pulseGroup = svg.append("g").attr("class", "pulses");
   const lineGroup  = svg.append("g").attr("class", "lines");
@@ -301,6 +313,8 @@ function setupD3Overlay(boys, cheltenham) {
   let _linesVisible = false;
 
   function render() {
+    updateOverlayPositions();
+
     const chelt = project(cheltenham.geometry.coordinates);
     const paths = lineGroup
       .selectAll("path.line")
@@ -372,9 +386,9 @@ function setupD3Overlay(boys, cheltenham) {
     }
   };
 
-  map.on("move", render);
+  map.on("move",    render);
   map.on("moveend", render);
-  map.on("resize", render);
+  map.on("resize",  render);
   render();
 }
 
@@ -474,11 +488,13 @@ function setAnchorVisibility(opacity) {
 }
 
 // Fast fade-in (300ms) so the overlay snaps onto the stage;
-// slow fade-out (2000ms) so it lingers as the reader scrolls away
-function fadeOverlay(id, opacity) {
-  const duration = opacity > 0 ? 300 : 2000;
-  map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration, delay: 0 });
-  map.setPaintProperty(`overlay-${id}`, "raster-opacity", opacity);
+// slow fade-out (2000ms) so it lingers as the reader scrolls away.
+// CSS transition handles the easing; the glow loop bypasses it.
+function fadeOverlay(id, targetOpacity) {
+  const el = _overlayImages[id].node();
+  const duration = targetOpacity > 0 ? 300 : 2000;
+  el.style.transition = `opacity ${duration}ms ease`;
+  el.style.opacity = targetOpacity;
 }
 
 function setAllOverlays(opacity) {
@@ -496,15 +512,14 @@ function startGlow(id) {
   // Wait for the 300ms fade-in before beginning the pulse loop
   _glowTimeout = setTimeout(() => {
     if (_glowId !== id) return;
-    map.setPaintProperty(`overlay-${id}`, "raster-opacity-transition", { duration: 0, delay: 0 });
+    // Remove CSS transition so per-frame opacity updates apply instantly
+    const el = _overlayImages[id].node();
+    el.style.transition = "none";
     const t0 = performance.now();
     (function tick(t) {
       if (_glowId !== id) return;
       // Sine wave: oscillates between 0.35 (trough) and 0.90 (peak) over 1.5 s
-      map.setPaintProperty(
-        `overlay-${id}`, "raster-opacity",
-        0.625 + 0.275 * Math.sin((t - t0) / 1500 * 2 * Math.PI)
-      );
+      el.style.opacity = 0.625 + 0.275 * Math.sin((t - t0) / 1500 * 2 * Math.PI);
       _glowRaf = requestAnimationFrame(tick);
     })(t0);
   }, 350);
@@ -514,7 +529,8 @@ function stopGlow() {
   if (_glowTimeout) { clearTimeout(_glowTimeout); _glowTimeout = null; }
   if (_glowRaf)     { cancelAnimationFrame(_glowRaf); _glowRaf = null; }
   if (_glowId) {
-    map.setPaintProperty(`overlay-${_glowId}`, "raster-opacity-transition", { duration: 2000, delay: 0 });
+    // Restore slow fade-out transition for the next hide
+    _overlayImages[_glowId].node().style.transition = "opacity 2000ms ease";
     _glowId = null;
   }
 }
