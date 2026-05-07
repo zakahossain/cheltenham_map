@@ -249,7 +249,7 @@ function setupD3Overlay(boys, cheltenham) {
       .style("opacity", 0)
       .style("mix-blend-mode", "multiply")
       // Sepia ink wash so the traced shapes read like fountain pen on aged paper
-      .style("filter", "sepia(1) hue-rotate(-15deg) saturate(1.4) brightness(0.55)")
+      .style("filter", "sepia(1) hue-rotate(-15deg) saturate(1.4) brightness(0.25)")
       .style("pointer-events", "none");
   }
 
