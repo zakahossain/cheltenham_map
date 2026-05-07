@@ -69,9 +69,11 @@
     // Compute soil img translateY. Source img is positioned at top:0 of the
     // fixed #soil-burial container (which fills the viewport). At progress=0
     // we want the img entirely below viewport; at progress=1 entirely above.
+    // Y_OFFSET shifts the whole trajectory upward on screen.
+    const Y_OFFSET = -100;
     const imgH = imgEl.offsetHeight;
-    const startY = vh;          // img top below viewport
-    const endY = -imgH;         // img top above viewport (bottom at top edge)
+    const startY = vh + Y_OFFSET;
+    const endY = -imgH + Y_OFFSET;
 
     // Ease so the soil rises naturally and then floats up smoothly.
     const eased = easeInOutCubic(progress);
