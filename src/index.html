@@ -15,10 +15,10 @@
 <!-- D3 -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
-<!-- Old English headline font for Act I -->
+<!-- Body sans-serif (Source Sans 3) — heads use system Georgia serif -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="styles.css" />
 </head>
@@ -36,6 +36,28 @@
     <div id="act-i-root"></div>
   </div>
 </section>
+
+<!-- Soil burial bridge — gives the soil 100vh of scroll to clear after Act I,
+     so the bottom transparent edge of the PNG can sweep through the viewport
+     and reveal the map below. -->
+<div id="soil-bridge"></div>
+
+<!-- Soil burial layer (fixed, page-scroll-driven by burial.js).
+     Sits above Act I (z-index 11 > 10) so it covers the cards during burial,
+     and above the map (z-index 1) so it covers the map during transition. -->
+<div id="soil-burial">
+  <img src="earth/soil-1080.webp" alt="" />
+</div>
+
+<!-- Headline that appears centered on the soil during the burial peak.
+     Driven by burial.js. -->
+<div id="soil-headline">
+  <div class="soil-headline-h">An estimated 230 Black boys</div>
+  <div class="soil-headline-b">
+    died in state custody at the Cheltenham House of Reformation
+    between 1870 and 1940 — most of tuberculosis, most from Baltimore.
+  </div>
+</div>
 
 <!-- Asset paths the Act I scene reads from (set before scripts load) -->
 <script>
@@ -160,7 +182,23 @@
 
 </main>
 
+<footer id="page-footer">
+  <div class="footer-inner">
+    <h3>From Baltimore to Cheltenham</h3>
+    <p>
+      Reporting and data work by the JOUR389/689 / Howard Center class at the
+      University of Maryland's Philip Merrill College of Journalism, with
+      Capital News Service. Project advisor: Prof. Rob Wells.
+    </p>
+    <p class="footer-meta">
+      Map and Act I built by Zaka Hossain · Spring 2026 ·
+      <a href="https://github.com/zakahossain/cheltenham_map">source on GitHub</a>
+    </p>
+  </div>
+</footer>
+
 <script src="map.js"></script>
+<script src="burial.js"></script>
 
 <!-- Act I scripts — order matters: animations first (defines Stage on window),
      then scene (defines CertificatesScene on window), then app (mounts) -->

@@ -154,16 +154,17 @@ html, body {
 
 /* ============================================================
    Act I — The Certificates
-   Scroll-driven prelude that sits before the map.
-   The internal scene (floor, certs, earth, headlines, counter) is
-   rendered by React in scene.jsx; only the section-level scroll
-   structure lives here.
+   Scroll-driven prelude that sits before the map. The internal scene
+   (floor, certs, overlay text, counter) is rendered by React in
+   scene.jsx. The soil burial layer + soil headline live OUTSIDE
+   the React stage so they can extend below the sticky pin and
+   bridge into the map area.
    ============================================================ */
 
 #act-i {
   position: relative;
-  height: 500vh;          /* total scroll length of Act I */
-  z-index: 10;            /* covers the fixed map below while in view */
+  height: 500vh;
+  z-index: 10;
   background: #050302;
 }
 
@@ -178,6 +179,128 @@ html, body {
 #act-i-root {
   position: absolute;
   inset: 0;
+}
+
+/* 100vh of empty scroll after Act I — gives the soil burial layer space to
+   slide up and reveal the map below before the intro hero appears. */
+#soil-bridge {
+  position: relative;
+  height: 100vh;
+  z-index: 4;
+  background: transparent;
+}
+
+/* Soil burial — fixed-positioned, page-scroll-driven by burial.js.
+   Above Act I (z-index 10) so it covers the cards during burial,
+   above the map (z-index 1) so it covers the map until the
+   transparent bottom edge sweeps past. */
+#soil-burial {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 11;
+  visibility: hidden; /* JS toggles when active */
+}
+
+#soil-burial img {
+  position: absolute;
+  top: 0;
+  left: -5%;             /* slight bleed so the edge never shows */
+  width: 110%;
+  height: auto;
+  display: block;
+  user-select: none;
+  /* JS sets translateY based on scroll progress */
+  will-change: transform;
+}
+
+/* Soil headline — centered on screen, fades in at burial peak.
+   z-index above the soil so it reads on top of the dirt. */
+#soil-headline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8%;
+  text-align: center;
+  pointer-events: none;
+  z-index: 12;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms linear;
+}
+
+.soil-headline-h {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 5vw, 72px);
+  color: rgba(232, 220, 188, 0.96);
+  line-height: 1.1;
+  margin-bottom: 22px;
+  letter-spacing: -0.005em;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.95);
+}
+
+.soil-headline-b {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+  font-size: clamp(16px, 1.6vw, 24px);
+  color: rgba(232, 220, 188, 0.88);
+  line-height: 1.5;
+  max-width: 980px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95);
+}
+
+/* ============================================================
+   Page footer — sits below the map's outro section
+   ============================================================ */
+
+#page-footer {
+  position: relative;
+  z-index: 4;
+  background: #2b1d10;
+  color: rgba(232, 220, 188, 0.78);
+  padding: 60px 40px 80px;
+  border-top: 1px solid rgba(232, 220, 188, 0.14);
+}
+
+#page-footer .footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#page-footer h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  color: rgba(232, 220, 188, 0.95);
+  margin-bottom: 14px;
+  font-weight: 400;
+}
+
+#page-footer p {
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+
+#page-footer .footer-meta {
+  font-size: 13px;
+  color: rgba(232, 220, 188, 0.55);
+  margin-top: 18px;
+}
+
+#page-footer a {
+  color: rgba(232, 220, 188, 0.85);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Responsive — stack on mobile */

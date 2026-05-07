@@ -184,10 +184,10 @@ function OverlayText({ time, opacity }) {
       zIndex: -1,
     }}>
       <div style={{
-        fontFamily: '"UnifrakturMaguntia", "Old English Text MT", serif',
+        fontFamily: 'Georgia, serif',
         fontSize: 56,
-        color: 'rgba(220, 200, 170, 0.9)',
-        letterSpacing: '0.02em',
+        color: 'rgba(232, 220, 188, 0.95)',
+        letterSpacing: '-0.005em',
         textShadow: '0 2px 12px rgba(0,0,0,0.8)',
         marginBottom: 18,
         lineHeight: 1.1,
@@ -195,117 +195,27 @@ function OverlayText({ time, opacity }) {
         Most came from Baltimore
       </div>
       <div style={{
-        fontFamily: '"Times New Roman", Times, serif',
-        fontSize: 26,
-        color: 'rgba(220, 210, 195, 0.78)',
-        lineHeight: 1.45,
-        maxWidth: 920,
+        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontSize: 22,
+        color: 'rgba(220, 210, 195, 0.85)',
+        lineHeight: 1.5,
+        maxWidth: 880,
         textShadow: '0 2px 8px rgba(0,0,0,0.8)',
         fontStyle: 'italic',
       }}>
-        Black children from a single city, sent thirty miles south to a
-        state reformatory beside what is now Joint Base Andrews.
+        An estimated 230 Black boys died in state custody at Cheltenham.
+        Most were sent from a single city, thirty miles south to a
+        state reformatory.
       </div>
     </div>
   );
 }
 
-// ── Soil headline — centered on the rising soil during burial ───────────────
-// EDIT THIS COPY in scene.jsx · SoilHeadline.
-function SoilHeadline({ opacity }) {
-  if (opacity <= 0.01) return null;
-  return (
-    <div style={{
-      position: 'absolute',
-      left: 0, right: 0, top: 0, bottom: 0,
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '0 10%',
-      textAlign: 'center',
-      opacity,
-      pointerEvents: 'none',
-      zIndex: 2000, // above the earth layers (1000+)
-    }}>
-      <div style={{
-        fontFamily: '"UnifrakturMaguntia", "Old English Text MT", serif',
-        fontSize: 78,
-        color: 'rgba(232, 220, 188, 0.96)',
-        letterSpacing: '0.02em',
-        textShadow: '0 4px 24px rgba(0,0,0,0.95)',
-        marginBottom: 26,
-        lineHeight: 1.1,
-      }}>
-        One hundred and twenty-seven boys
-      </div>
-      <div style={{
-        fontFamily: '"Times New Roman", Times, serif',
-        fontSize: 30,
-        color: 'rgba(232, 220, 188, 0.88)',
-        lineHeight: 1.5,
-        maxWidth: 1100,
-        textShadow: '0 2px 14px rgba(0,0,0,0.95)',
-        fontStyle: 'italic',
-      }}>
-        died in state custody at the Cheltenham House of Reformation
-        between 1900 and 1950 — most of tuberculosis, most from Baltimore,
-        all of them Black.
-      </div>
-    </div>
-  );
-}
-
-// ── Earth layers — single tall soil PNG rises from below to bury everything ─
-function EarthLayers({ scrollY, srcs, W, H }) {
-  if (!srcs || srcs.length === 0) {
-    // Procedural fallback (only used if no soil PNG is provided)
-    return (
-      <>
-        {[0, 1, 2].map(idx => {
-          const speed = 1.6 + idx * 0.4;
-          const baseColors = ['#1a0c05', '#2a1810', '#3a2415'];
-          const heightFrac = 0.55 - idx * 0.12;
-          const layerY = H + 40 - scrollY * speed - idx * 30;
-          return (
-            <div key={idx} style={{
-              position: 'absolute',
-              left: -40, right: -40,
-              top: layerY,
-              height: H * heightFrac + 200,
-              background: `linear-gradient(180deg, transparent 0%, ${baseColors[idx]} 12%, ${baseColors[idx]} 100%)`,
-              pointerEvents: 'none',
-              zIndex: 1000 + idx,
-              filter: 'blur(' + (idx === 0 ? 1 : 0) + 'px)',
-            }}/>
-          );
-        })}
-      </>
-    );
-  }
-
-  return (
-    <>
-      {srcs.map((src, idx) => {
-        const speed = 1.6 + idx * 0.45;
-        const layerY = H + 40 - scrollY * speed - idx * 20;
-        return (
-          <img key={idx}
-               src={src}
-               draggable={false}
-               style={{
-                 position: 'absolute',
-                 left: 0, top: layerY,
-                 width: W, height: 'auto',
-                 pointerEvents: 'none',
-                 userSelect: 'none',
-                 zIndex: 1000 + idx,
-               }}/>
-        );
-      })}
-    </>
-  );
-}
+// NOTE: The soil burial layer and the soil-centered headline are NOT rendered
+// inside this React scene. They live outside Act I as page-scroll-driven
+// elements (see #soil-burial and #soil-headline in index.html, driven by
+// burial.js) so the soil can extend below this section's sticky pin and use
+// its bottom transparent edge to reveal the map underneath.
 
 // ── Counter ─────────────────────────────────────────────────────────────────
 function Counter({ visible, opacity, scrollY }) {
@@ -323,19 +233,20 @@ function Counter({ visible, opacity, scrollY }) {
       zIndex: 999,
     }}>
       <div style={{
-        fontFamily: '"Times New Roman", Times, serif',
-        fontSize: 14,
+        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontSize: 13,
         letterSpacing: '0.22em',
         textTransform: 'uppercase',
         color: 'rgba(180, 150, 110, 0.7)',
         marginBottom: 6,
       }}>boys recorded dead</div>
       <div style={{
-        fontFamily: '"UnifrakturMaguntia", "Old English Text MT", serif',
-        fontSize: 110,
+        fontFamily: 'Georgia, serif',
+        fontSize: 96,
         fontVariantNumeric: 'tabular-nums',
         fontWeight: 400,
         lineHeight: 1,
+        color: 'rgba(232, 220, 188, 0.95)',
       }}>{visible}</div>
     </div>
   );
@@ -375,19 +286,20 @@ function CertificatesScene({ tweaks }) {
   const recedeStart = holdEnd;
   const recedeDur = duration - recedeStart;
 
+  // Cert layer parallax scroll-up still happens inside the React scene —
+  // this is the slow drift of the pile before/while burial begins.
   const scrollStart = duration * 0.62;
   const scrollEndCertificates = duration;
   const certScrollProgress = clamp((time - scrollStart) / (scrollEndCertificates - scrollStart), 0, 1);
   const certScrollEased = Easing.easeInOutCubic(certScrollProgress);
   const certScrollY = certScrollEased * H * 0.45;
 
-  const earthScrollProgress = clamp((time - recedeStart) / recedeDur, 0, 1);
-  const earthScrollEased = Easing.easeOutCubic(earthScrollProgress);
-  const earthScrollY = earthScrollEased * (H + 600);
+  // Recession factor — used to desaturate cards during the burial. Driven by
+  // the same time variable; the visible burial itself happens outside React.
+  const recT = clamp((time - recedeStart) / recedeDur, 0, 1);
 
-  const recT = earthScrollProgress;
-
-  // Cert-phase overlay text fade in/out (during the hero hold + flurry)
+  // Cert-phase overlay text fade in/out (Baltimore-origin headline, during
+  // the hero hold + accumulation flurry; obscured by the incoming pile)
   const overlayInStart = 1.4;
   const overlayInEnd = 2.4;
   const overlayOutStart = duration * 0.30;
@@ -399,22 +311,6 @@ function CertificatesScene({ tweaks }) {
     overlayOpacity = 1;
   } else if (time >= overlayOutStart && time <= overlayOutEnd) {
     overlayOpacity = 1 - (time - overlayOutStart) / (overlayOutEnd - overlayOutStart);
-  }
-
-  // Soil headline — centered on the rising soil during burial.
-  // Fade in once the soil has risen far enough to read against; hold; fade out
-  // before the soil layer leaves the frame so it doesn't appear over the map.
-  const soilInStart = duration * 0.86;
-  const soilInEnd = duration * 0.92;
-  const soilOutStart = duration * 0.97;
-  const soilOutEnd = duration * 1.0;
-  let soilHeadlineOpacity = 0;
-  if (time >= soilInStart && time <= soilInEnd) {
-    soilHeadlineOpacity = (time - soilInStart) / (soilInEnd - soilInStart);
-  } else if (time > soilInEnd && time < soilOutStart) {
-    soilHeadlineOpacity = 1;
-  } else if (time >= soilOutStart && time <= soilOutEnd) {
-    soilHeadlineOpacity = 1 - (time - soilOutStart) / (soilOutEnd - soilOutStart);
   }
 
   // Card descriptors (memoized)
@@ -438,7 +334,7 @@ function CertificatesScene({ tweaks }) {
   }, [total, tweaks.pattern, certs.length, heroEnd, accumStart, accumEnd]);
 
   const visibleCount = cards.filter(c => time >= c.arrival).length;
-  const counterOpacity = Math.max(0, 1 - earthScrollProgress * 1.5);
+  const counterOpacity = Math.max(0, 1 - recT * 1.5);
 
   return (
     <>
@@ -474,12 +370,6 @@ function CertificatesScene({ tweaks }) {
           scrollY={certScrollY}
         />
       ))}
-
-      {/* Earth burial layers */}
-      <EarthLayers scrollY={earthScrollY} srcs={earth} W={W} H={H} />
-
-      {/* Soil headline — centered, sits above the earth */}
-      <SoilHeadline opacity={soilHeadlineOpacity} />
 
       {/* Counter */}
       {tweaks.showCounter && (
