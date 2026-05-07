@@ -10,7 +10,7 @@ const TWEAKS = {
   peakCount: 36,      // total falling cards (cap 40)
   pattern: "scatter", // 'scatter' | 'pile' | 'grid'
   tone: "sepia",
-  showCounter: true,
+  showCounter: false,
   stopMotion: true,
   fps: 16,
 };

@@ -184,10 +184,11 @@ function OverlayText({ time, opacity }) {
       zIndex: -1,
     }}>
       <div style={{
-        fontFamily: 'Georgia, serif',
+        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontWeight: 600,
         fontSize: 56,
         color: 'rgba(232, 220, 188, 0.95)',
-        letterSpacing: '-0.005em',
+        letterSpacing: '-0.01em',
         textShadow: '0 2px 12px rgba(0,0,0,0.8)',
         marginBottom: 18,
         lineHeight: 1.1,
@@ -196,12 +197,12 @@ function OverlayText({ time, opacity }) {
       </div>
       <div style={{
         fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontWeight: 400,
         fontSize: 22,
         color: 'rgba(220, 210, 195, 0.85)',
         lineHeight: 1.5,
         maxWidth: 880,
         textShadow: '0 2px 8px rgba(0,0,0,0.8)',
-        fontStyle: 'italic',
       }}>
         An estimated 230 Black boys died in state custody at Cheltenham.
         Most were sent from a single city, thirty miles south to a
@@ -241,10 +242,10 @@ function Counter({ visible, opacity, scrollY }) {
         marginBottom: 6,
       }}>boys recorded dead</div>
       <div style={{
-        fontFamily: 'Georgia, serif',
+        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
         fontSize: 96,
         fontVariantNumeric: 'tabular-nums',
-        fontWeight: 400,
+        fontWeight: 600,
         lineHeight: 1,
         color: 'rgba(232, 220, 188, 0.95)',
       }}>{visible}</div>
