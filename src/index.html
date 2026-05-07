@@ -15,10 +15,58 @@
 <!-- D3 -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
+<!-- Old English headline font for Act I -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+
+<!-- ============================================================ -->
+<!-- Act I — The Certificates                                     -->
+<!-- Scroll-driven sequence: certificates fall to a soil floor,   -->
+<!-- accumulate, then a soil layer rises and buries them before   -->
+<!-- handing off to Act II (the map below).                       -->
+<!-- ============================================================ -->
+<section id="act-i">
+  <div id="act-i-pin">
+    <div id="act-i-stage">
+      <!-- Soil-textured floor (uses the warm middle band of the soil PNG) -->
+      <div id="act-i-floor"></div>
+      <!-- Subtle vignette so the eye lands in the middle of the frame -->
+      <div id="act-i-vignette"></div>
+
+      <!-- Overlay text — fades in after the hero certificate lands,
+           then is physically obscured by incoming cards -->
+      <div id="act-i-overlay-text">
+        <div class="act-i-overlay-headline">One hundred and twenty-seven boys</div>
+        <div class="act-i-overlay-body">
+          died in state custody at the Cheltenham House of Reformation
+          between 1900 and 1950 — most of tuberculosis, most from Baltimore,
+          all of them Black.
+        </div>
+      </div>
+
+      <!-- Falling certificates are appended here by act-i.js -->
+      <div id="act-i-cards"></div>
+
+      <!-- Earth burial layer — single tall soil PNG that rises faster
+           than the certificate parallax scroll -->
+      <div id="act-i-earth">
+        <img src="earth/soil-1080.webp" alt="" />
+      </div>
+
+      <!-- Live count of cards visible on screen -->
+      <div id="act-i-counter">
+        <div class="act-i-counter-label">boys recorded dead</div>
+        <div id="act-i-counter-num">0</div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Fixed map on the left side -->
 <div id="map-wrapper">
@@ -122,5 +170,6 @@
 </main>
 
 <script src="map.js"></script>
+<script src="act-i.js"></script>
 </body>
 </html>

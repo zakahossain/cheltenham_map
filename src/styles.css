@@ -23,7 +23,7 @@ html, body {
   width: 100%;
   height: 100%;
   /* Tints the light Mapbox base into warm aged-parchment tones */
-  filter: sepia(0.8) saturate(1.3) hue-rotate(-4deg) brightness(0.6) contrast(2);
+  filter: sepia(0.2) saturate(1.3) hue-rotate(-4deg) brightness(0.65) contrast(2);
 }
 
 #overlay {
@@ -150,6 +150,158 @@ html, body {
   animation: pulse-ring 1.5s ease-out infinite;
   transform-box: fill-box;
   transform-origin: center;
+}
+
+/* ============================================================
+   Act I — The Certificates
+   Scroll-driven prelude that sits before the map.
+   ============================================================ */
+
+#act-i {
+  position: relative;
+  height: 500vh;          /* total scroll length of Act I */
+  z-index: 10;            /* covers the fixed map below while in view */
+  background: #050302;    /* matches act-i-pin so any seam reads black */
+}
+
+#act-i-pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #050302;
+}
+
+#act-i-stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1920px;          /* design space — JS scales to viewport */
+  height: 1080px;
+  transform-origin: center center;
+  /* transform set by act-i.js: translate(-50%, -50%) scale(s) */
+}
+
+#act-i-floor {
+  position: absolute;
+  inset: 0;
+  background-color: #1a0e07;
+  background-image: url("earth/soil-1080.webp");
+  background-size: 110% 240%;       /* taller than viewport — frames the warm middle band */
+  background-position: center 35%;  /* skips the soft top edge AND the near-black bottom */
+  background-repeat: no-repeat;
+}
+
+#act-i-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.35) 100%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+#act-i-overlay-text {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 12%;
+  z-index: -1;            /* sits beneath every cert sprite — pile physically obscures it */
+  pointer-events: none;
+  opacity: 0;             /* set by JS during the hero hold */
+  transition: opacity 0.4s ease;
+}
+
+.act-i-overlay-headline {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", serif;
+  font-size: 56px;
+  color: rgba(220, 200, 170, 0.9);
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+  margin-bottom: 18px;
+  line-height: 1.1;
+}
+
+.act-i-overlay-body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  font-style: italic;
+  color: rgba(220, 210, 195, 0.78);
+  line-height: 1.45;
+  max-width: 920px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+#act-i-cards {
+  position: absolute;
+  inset: 0;
+}
+
+/* Each falling certificate. JS sets left/top (treated as the card's center
+   thanks to the negative margins below), plus transform and filter. */
+.cert {
+  position: absolute;
+  width: 660px;
+  height: 400px;
+  margin-left: -330px;
+  margin-top: -200px;
+  will-change: transform, filter;
+}
+
+.cert img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+  /* Slight warm wash so the off-white scans harmonize with the dark floor */
+  filter: sepia(0.18) contrast(1.05);
+}
+
+/* The single tall soil PNG that rises from below to bury everything */
+#act-i-earth {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 1000;
+  will-change: transform;
+}
+
+#act-i-earth img {
+  width: 110%;
+  margin-left: -5%;       /* slight bleed so the edge never shows */
+  display: block;
+  user-select: none;
+}
+
+#act-i-counter {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  text-align: right;
+  pointer-events: none;
+  z-index: 999;
+  mix-blend-mode: screen; /* glows warm against the dark earth */
+  color: rgba(220, 200, 170, 0.85);
+}
+
+.act-i-counter-label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(180, 150, 110, 0.7);
+  margin-bottom: 6px;
+}
+
+#act-i-counter-num {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", serif;
+  font-size: 110px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+  line-height: 1;
 }
 
 /* Responsive — stack on mobile */
