@@ -242,6 +242,16 @@ html, body {
   transition: opacity 200ms linear;
 }
 
+.soil-headline-kicker {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  font-size: clamp(11px, 0.9vw, 14px);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(220, 200, 170, 0.75);
+  margin-bottom: 18px;
+}
+
 .soil-headline-h {
   font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
