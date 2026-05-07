@@ -126,7 +126,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 5,
-      "circle-color": "#1a0a02",
+      "circle-color": "#5c2e10",
       "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 1,
       "circle-opacity": 0,
@@ -141,7 +141,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 12,
-      "circle-color": "#5c1f08",
+      "circle-color": "#8b3a1a",
       "circle-opacity": 0,
       "circle-blur": 0.8,
     },
@@ -160,7 +160,7 @@ map.on("load", async () => {
       "text-allow-overlap": false,
     },
     paint: {
-      "text-color": "#1a0a02",
+      "text-color": "#3a1f0e",
       "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -179,7 +179,7 @@ map.on("load", async () => {
     filter: ["!in", "id", "washington_dc", "joint_base_andrews", "cheltenham_cemetery"],
     paint: {
       "circle-radius": 7,
-      "circle-color": "#6b1f0a",
+      "circle-color": "#9c3a1f",
       "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 2,
       "circle-opacity": 0,
@@ -202,7 +202,7 @@ map.on("load", async () => {
       "text-offset": [0, 0.9],
     },
     paint: {
-      "text-color": "#1a0a02",
+      "text-color": "#3a1f0e",
       "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -214,17 +214,25 @@ map.on("load", async () => {
   // pageY includes scroll offset and places the tooltip off-screen mid-story
 
   const tooltip = document.getElementById("tooltip");
-  map.on("mousemove", "boys-dots", (e) => {
+  const showBoyTooltip = (e) => {
     const f = e.features[0];
     tooltip.innerHTML = f.properties.tooltip;
     tooltip.style.left = e.originalEvent.clientX + "px";
     tooltip.style.top  = e.originalEvent.clientY + "px";
     tooltip.style.opacity = 1;
     map.getCanvas().style.cursor = "pointer";
-  });
+  };
+  map.on("mousemove", "boys-dots", showBoyTooltip);
+  map.on("click",     "boys-dots", showBoyTooltip);
   map.on("mouseleave", "boys-dots", () => {
     tooltip.style.opacity = 0;
     map.getCanvas().style.cursor = "";
+  });
+  // Tap/click anywhere outside a puck dismisses the tooltip — important on
+  // touch devices where there's no mouseleave to fire.
+  map.on("click", (e) => {
+    const hits = map.queryRenderedFeatures(e.point, { layers: ["boys-dots"] });
+    if (hits.length === 0) tooltip.style.opacity = 0;
   });
 
   // ---- D3 overlay + scrollama ----------------------------------------------
@@ -325,7 +333,7 @@ function setupD3Overlay(boys, cheltenham) {
       .append("path")
       .attr("class", "line")
       .attr("fill", "none")
-      .attr("stroke", "#1a0a02")
+      .attr("stroke", "#3a1f0e")
       .attr("stroke-width", 0.8)
       .attr("stroke-opacity", 0)
       .attr("data-id", (d) => d.properties.id)
@@ -336,6 +344,15 @@ function setupD3Overlay(boys, cheltenham) {
         tt.style.top  = event.clientY + "px";
         tt.style.opacity = 1;
         d3.select(this).attr("stroke-opacity", 1).attr("stroke-width", 1.6);
+      })
+      .on("click", function (event, d) {
+        // Tap/click on a line shows the tooltip too — important on touch.
+        event.stopPropagation();
+        const tt = document.getElementById("tooltip");
+        tt.innerHTML = d.properties.tooltip;
+        tt.style.left = event.clientX + "px";
+        tt.style.top  = event.clientY + "px";
+        tt.style.opacity = 1;
       })
       .on("mouseleave", function () {
         document.getElementById("tooltip").style.opacity = 0;

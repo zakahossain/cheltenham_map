@@ -83,7 +83,7 @@ html, body {
 }
 
 #story h1 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 38px;
   line-height: 1.15;
@@ -93,7 +93,7 @@ html, body {
 }
 
 #story h2 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 26px;
   line-height: 1.25;
@@ -131,8 +131,8 @@ html, body {
 #story .card {
   background: rgba(232, 220, 188, 0.92);
   padding: 22px 26px;
-  border-left: 3px solid #6b1f0a;
-  border-radius: 2px;
+  border: 1.5px solid #9c3a1f;
+  border-radius: 0;
   max-width: 460px;
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 12px rgba(58, 31, 14, 0.12);
@@ -147,7 +147,7 @@ html, body {
 }
 
 .pulse-ring {
-  fill: #6b1f0a;
+  fill: #9c3a1f;
   stroke: none;
   pointer-events: none;
   animation: pulse-ring 1.5s ease-out infinite;
@@ -243,14 +243,13 @@ html, body {
 }
 
 .soil-headline-h {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: clamp(36px, 5vw, 72px);
   color: rgba(232, 220, 188, 0.96);
   line-height: 1.1;
   margin-bottom: 22px;
   letter-spacing: -0.01em;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.95);
 }
 
 .soil-headline-b {
@@ -270,10 +269,10 @@ html, body {
 #chart-section {
   position: relative;
   z-index: 5;             /* above the fixed map (z-index 1) */
-  background: #ffffff;    /* white — blends with the Flourish chart's own bg */
-  color: #1a1a1a;
+  background: #dccfb0;    /* parchment — matches the rest of the page */
+  color: #3a2818;
   padding: 80px 40px 60px;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(58, 31, 14, 0.12);
 }
 
 #chart-section .chart-inner {
@@ -282,26 +281,26 @@ html, body {
 }
 
 #chart-section h2 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #1a1a1a;
+  color: #3a1f0e;
   margin-bottom: 12px;
 }
 
 #chart-section .chart-dek {
   font-size: 17px;
   line-height: 1.55;
-  color: #333333;
+  color: #3a2818;
   max-width: 720px;
   margin-bottom: 28px;
 }
 
 #chart-section .chart-frame {
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #ffffff;     /* white frame keeps the chart itself blending */
+  border: 1px solid rgba(58, 31, 14, 0.18);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -315,7 +314,7 @@ html, body {
 
 #chart-section .chart-source {
   font-size: 13px;
-  color: #6a6a6a;
+  color: #7a5e44;
   margin-top: 14px;
   line-height: 1.45;
 }
@@ -327,10 +326,10 @@ html, body {
 #methodology-section {
   position: relative;
   z-index: 5;
-  background: #ffffff;
-  color: #1a1a1a;
+  background: #dccfb0;     /* parchment — flows into the chart section above */
+  color: #3a2818;
   padding: 40px 40px 80px;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(58, 31, 14, 0.08);
 }
 
 #methodology-section .method-inner {
@@ -339,28 +338,28 @@ html, body {
 }
 
 #methodology-section h2 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #1a1a1a;
+  color: #3a1f0e;
   margin-bottom: 6px;
 }
 
 #methodology-section .method-byline {
   font-size: 13px;
-  color: #6a6a6a;
+  color: #7a5e44;
   margin-bottom: 28px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 #methodology-section h3 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 17px;
-  color: #1a1a1a;
+  color: #3a1f0e;
   margin-top: 28px;
   margin-bottom: 8px;
   letter-spacing: -0.005em;
@@ -369,7 +368,7 @@ html, body {
 #methodology-section p {
   font-size: 16px;
   line-height: 1.6;
-  color: #333333;
+  color: #3a2818;
   margin-bottom: 16px;
 }
 
@@ -392,7 +391,7 @@ html, body {
 }
 
 #page-footer h3 {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-weight: 600;
   font-size: 22px;
   color: rgba(232, 220, 188, 0.95);

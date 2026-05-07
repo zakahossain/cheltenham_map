@@ -184,12 +184,11 @@ function OverlayText({ time, opacity }) {
       zIndex: -1,
     }}>
       <div style={{
-        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontFamily: '"EB Garamond", Garamond, "Times New Roman", serif',
         fontWeight: 600,
-        fontSize: 56,
+        fontSize: 60,
         color: 'rgba(232, 220, 188, 0.95)',
-        letterSpacing: '-0.01em',
-        textShadow: '0 2px 12px rgba(0,0,0,0.8)',
+        letterSpacing: '-0.005em',
         marginBottom: 18,
         lineHeight: 1.1,
       }}>
@@ -242,7 +241,7 @@ function Counter({ visible, opacity, scrollY }) {
         marginBottom: 6,
       }}>boys recorded dead</div>
       <div style={{
-        fontFamily: '"Source Sans 3", "Helvetica Neue", Arial, sans-serif',
+        fontFamily: '"EB Garamond", Garamond, "Times New Roman", serif',
         fontSize: 96,
         fontVariantNumeric: 'tabular-nums',
         fontWeight: 600,
