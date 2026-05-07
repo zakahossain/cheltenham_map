@@ -55,9 +55,11 @@
     const bridgeBottom = actIBottom + bridgeEl.offsetHeight;
 
     // Burial scroll range:
-    //   - starts when the user has scrolled into the last ~16% of Act I
-    //   - ends when they've fully scrolled through #soil-bridge
-    const burialStart = actITop + actIH * 0.84 - vh;
+    //   - starts the moment the certificate pile is complete (~70% of the
+    //     React stage's duration, which corresponds to scroll progress 0.70
+    //     of Act I's pin-active range, plus 1vh so they don't quite overlap)
+    //   - ends when the user has fully scrolled through #soil-bridge
+    const burialStart = actITop + actIH * 0.70 - vh;
     const burialEnd = bridgeBottom;
     const range = burialEnd - burialStart;
     if (range <= 0) return;
