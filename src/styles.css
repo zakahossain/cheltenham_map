@@ -270,9 +270,10 @@ html, body {
 #chart-section {
   position: relative;
   z-index: 5;             /* above the fixed map (z-index 1) */
-  background: #dccfb0;    /* parchment, matches body */
+  background: #ffffff;    /* white — blends with the Flourish chart's own bg */
+  color: #1a1a1a;
   padding: 80px 40px 60px;
-  border-top: 1px solid rgba(58, 31, 14, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 #chart-section .chart-inner {
@@ -286,21 +287,21 @@ html, body {
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #3a1f0e;
+  color: #1a1a1a;
   margin-bottom: 12px;
 }
 
 #chart-section .chart-dek {
   font-size: 17px;
   line-height: 1.55;
-  color: #3a2818;
+  color: #333333;
   max-width: 720px;
   margin-bottom: 28px;
 }
 
 #chart-section .chart-frame {
-  background: #efe3c7;
-  border: 1px solid rgba(58, 31, 14, 0.12);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -314,7 +315,7 @@ html, body {
 
 #chart-section .chart-source {
   font-size: 13px;
-  color: #7a5e44;
+  color: #6a6a6a;
   margin-top: 14px;
   line-height: 1.45;
 }
