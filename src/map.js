@@ -102,7 +102,7 @@ let _overlayImages = {};
 // ---------------------------------------------------------------------------
 const map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/mapbox/dark-v11",
+  style: "mapbox://styles/mapbox/light-v11",
   center: STAGES[1].center,
   zoom: STAGES[1].zoom,
   pitch: STAGES[1].pitch,
@@ -126,8 +126,8 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 5,
-      "circle-color": "#f0c040",
-      "circle-stroke-color": "#000000",
+      "circle-color": "#5c2e10",
+      "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 1,
       "circle-opacity": 0,
       "circle-stroke-opacity": 0,
@@ -141,7 +141,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 12,
-      "circle-color": "#f0c040",
+      "circle-color": "#8b3a1a",
       "circle-opacity": 0,
       "circle-blur": 0.8,
     },
@@ -160,8 +160,8 @@ map.on("load", async () => {
       "text-allow-overlap": false,
     },
     paint: {
-      "text-color": "#f0c040",
-      "text-halo-color": "#000000",
+      "text-color": "#3a1f0e",
+      "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
     },
@@ -179,8 +179,8 @@ map.on("load", async () => {
     filter: ["!in", "id", "washington_dc", "joint_base_andrews", "cheltenham_cemetery"],
     paint: {
       "circle-radius": 7,
-      "circle-color": "#e74c3c",
-      "circle-stroke-color": "#ffffff",
+      "circle-color": "#9c3a1f",
+      "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 2,
       "circle-opacity": 0,
     },
@@ -202,8 +202,8 @@ map.on("load", async () => {
       "text-offset": [0, 0.9],
     },
     paint: {
-      "text-color": "#f0c040",
-      "text-halo-color": "#000000",
+      "text-color": "#3a1f0e",
+      "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
     },
@@ -247,9 +247,9 @@ function setupD3Overlay(boys, cheltenham) {
       .attr("href", spec.url)
       .attr("preserveAspectRatio", "none")
       .style("opacity", 0)
-      .style("mix-blend-mode", "screen")
-      // Subtle hue + saturation shift to match the #e74c3c accent red
-      .style("filter", "hue-rotate(6deg) saturate(0.38)")
+      .style("mix-blend-mode", "multiply")
+      // Sepia ink wash so the traced shapes read like fountain pen on aged paper
+      .style("filter", "sepia(1) hue-rotate(-15deg) saturate(1.4) brightness(0.55)")
       .style("pointer-events", "none");
   }
 
@@ -325,7 +325,7 @@ function setupD3Overlay(boys, cheltenham) {
       .append("path")
       .attr("class", "line")
       .attr("fill", "none")
-      .attr("stroke", "#f0c040")
+      .attr("stroke", "#3a1f0e")
       .attr("stroke-width", 0.8)
       .attr("stroke-opacity", 0)
       .attr("data-id", (d) => d.properties.id)

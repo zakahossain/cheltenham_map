@@ -224,7 +224,7 @@ Adjusting one corner shifts the whole image relative to the map, so a small erro
 
 ## Editorial guardrails
 
-The tooltip for each boy is built strictly from what's in the data. If a field is missing — no recorded age, no later address, no documented fate — that sentence is omitted rather than filled in with an assumption. The code never guesses. A tooltip might be as spare as:
+The tooltip for each boy is built strictly from what's in the data. If a field is missing — no recorded age, no later address, no documented fate — that sentence is omitted rather than filled in with an assumption. A tooltip might be as spare as:
 
 > **Harold Hurt or Durham** was 16 at Cheltenham in 1938.
 
