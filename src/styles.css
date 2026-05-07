@@ -263,6 +263,42 @@ html, body {
 }
 
 /* ============================================================
+   Cemetery photograph — full-screen between the map and the chart
+   ============================================================ */
+
+#cemetery-photo {
+  position: relative;
+  z-index: 5;             /* above the fixed map (z-index 1) */
+  height: 100vh;
+  width: 100%;
+  background: #050302 url("photos/cheltenham-cemetery.jpg") center / cover no-repeat;
+}
+
+#cemetery-photo .cemetery-credit {
+  position: absolute;
+  right: 28px;
+  bottom: 28px;
+  max-width: 420px;
+  padding: 14px 18px;
+  background: rgba(20, 14, 8, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: rgba(232, 220, 188, 0.92);
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid rgba(232, 220, 188, 0.18);
+}
+
+#cemetery-photo .cemetery-byline {
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(232, 220, 188, 0.6);
+}
+
+/* ============================================================
    Chart section — sits after the map, before the footer
    ============================================================ */
 
