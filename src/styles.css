@@ -281,7 +281,20 @@ html, body {
   z-index: 5;             /* above the fixed map (z-index 1) */
   height: 100vh;
   width: 100%;
-  background: #050302 url("photos/cheltenham-cemetery.jpg") center / cover no-repeat;
+  overflow: hidden;       /* clip the oversized parallax bg to viewport */
+  background: #050302;
+}
+
+/* The image is taller than the section so parallax.js can translate it
+   without ever exposing the section's solid backdrop at the edges. */
+#cemetery-photo .cemetery-photo-img {
+  position: absolute;
+  top: -30vh;
+  left: 0;
+  right: 0;
+  height: 160vh;
+  background: url("photos/cheltenham-cemetery.jpg") center / cover no-repeat;
+  will-change: transform;
 }
 
 #cemetery-photo .cemetery-credit {

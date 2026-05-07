@@ -191,8 +191,11 @@
 
 </main>
 
-<!-- Full-screen cemetery photograph — sits between the map and the chart. -->
+<!-- Full-screen cemetery photograph — sits between the map and the chart.
+     The inner .cemetery-photo-img element is taller than the section and
+     parallax.js translates it on scroll so it moves slower than the page. -->
 <section id="cemetery-photo" aria-label="Cheltenham cemetery">
+  <div class="cemetery-photo-img" aria-hidden="true"></div>
   <div class="cemetery-credit">
     The unkempt cemetery beside the old Cheltenham reformatory, where some
     boys were buried in unmarked graves.
@@ -318,6 +321,7 @@
 
 <script src="map.js"></script>
 <script src="burial.js"></script>
+<script src="parallax.js"></script>
 
 <!-- Act I scripts — order matters: animations first (defines Stage on window),
      then scene (defines CertificatesScene on window), then app (mounts) -->
