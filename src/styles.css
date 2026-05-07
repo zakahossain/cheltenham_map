@@ -128,7 +128,7 @@ html, body {
 #story .card {
   background: rgba(232, 220, 188, 0.92);
   padding: 22px 26px;
-  border-left: 3px solid #9c3a1f;
+  border-left: 3px solid #6b1f0a;
   border-radius: 2px;
   max-width: 460px;
   backdrop-filter: blur(8px);
@@ -144,7 +144,7 @@ html, body {
 }
 
 .pulse-ring {
-  fill: #9c3a1f;
+  fill: #6b1f0a;
   stroke: none;
   pointer-events: none;
   animation: pulse-ring 1.5s ease-out infinite;

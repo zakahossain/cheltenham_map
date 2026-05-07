@@ -126,7 +126,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 5,
-      "circle-color": "#5c2e10",
+      "circle-color": "#1a0a02",
       "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 1,
       "circle-opacity": 0,
@@ -141,7 +141,7 @@ map.on("load", async () => {
     source: "boys",
     paint: {
       "circle-radius": 12,
-      "circle-color": "#8b3a1a",
+      "circle-color": "#5c1f08",
       "circle-opacity": 0,
       "circle-blur": 0.8,
     },
@@ -160,7 +160,7 @@ map.on("load", async () => {
       "text-allow-overlap": false,
     },
     paint: {
-      "text-color": "#3a1f0e",
+      "text-color": "#1a0a02",
       "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -179,7 +179,7 @@ map.on("load", async () => {
     filter: ["!in", "id", "washington_dc", "joint_base_andrews", "cheltenham_cemetery"],
     paint: {
       "circle-radius": 7,
-      "circle-color": "#9c3a1f",
+      "circle-color": "#6b1f0a",
       "circle-stroke-color": "#e8dcbc",
       "circle-stroke-width": 2,
       "circle-opacity": 0,
@@ -202,7 +202,7 @@ map.on("load", async () => {
       "text-offset": [0, 0.9],
     },
     paint: {
-      "text-color": "#3a1f0e",
+      "text-color": "#1a0a02",
       "text-halo-color": "#e8dcbc",
       "text-halo-width": 1.5,
       "text-opacity": 0,
@@ -325,7 +325,7 @@ function setupD3Overlay(boys, cheltenham) {
       .append("path")
       .attr("class", "line")
       .attr("fill", "none")
-      .attr("stroke", "#3a1f0e")
+      .attr("stroke", "#1a0a02")
       .attr("stroke-width", 0.8)
       .attr("stroke-opacity", 0)
       .attr("data-id", (d) => d.properties.id)
